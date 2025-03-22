@@ -74,7 +74,6 @@ class LongEvalSciDataset(Dataset):
         prior_datasets: Optional[List[str]] = None,
     ):
         documentation = YamlDocumentation(yaml_documentation)
-        base_path = base_path / "longeval_sci_training_2025_abstract"
         self.base_path = base_path
 
         if not base_path or not base_path.exists() or not base_path.is_dir():
@@ -147,8 +146,7 @@ def register():
     base_path = home_path() / NAME
 
     dlc = DownloadConfig.context(NAME, base_path)
-    base_path = home_path() / NAME
-
+    base_path = home_path() / NAME / "longeval_sci_training_2025"/"longeval_sci_training_2025_abstract"
     data_path = ZipExtractCache(
         dlc["longeval_sci_training_2025"], base_path / "longeval_sci_training_2025"
     ).path()
