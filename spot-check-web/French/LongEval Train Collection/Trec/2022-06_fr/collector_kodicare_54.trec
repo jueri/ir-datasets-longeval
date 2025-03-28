@@ -1,0 +1,233 @@
+<DOC>
+<DOCNO>doc503870</DOCNO>
+<DOCID>doc503870</DOCID>
+<TEXT>
+What did you do this Christmas season? 
+- WARDY IT Solutions 17 Jan The festive season is a time when many businesses close shop for a few days, giving everyone from owners to staff a well-earned rest. 
+However, if your business relies on systems running, overnight processes or a website that’s always accessible, it can feel impossible to fully take a break. 
+Your database environment underpins these operations. 
+It’s vital these critical systems are effectively managed, no matter what time of the day or night. 
+That’s where WARDY IT Solutions’ Virtual DBA service delivers – and the gift is peace of mind. 
+The team is rostered on shift 24 hours a day, 7 days a week, 365 days a year. 
+We’re not on call. 
+We‘re on shift, in the building, keeping an eye on every single one of our customers. 
+Some businesses can’t stop If your business is retail, hospitality or any essential service it’s likely you can’t ease up over the Christmas period or any public holiday. 
+If a database issue arises during this time, and your go-to DBA is not contactable, it can add a huge amount of stress to an already pressured time of year. 
+Or if you’re lucky, the issue may go undetected, but this sets up a nasty and unwanted post-Christmas surprise for your IT department. 
+Some businesses need to keep ticking away At the other end of the spectrum are businesses that do close down over this period but provide a service that must keep functioning. 
+It could be online orders, donations, queries, or any range of transactions. 
+Online interactions are increasing all the time and your customers often have multiple touchpoints with your organisation. 
+Not to mention the ongoing data collection and collating that is crucial for your regular reporting, business analysis and competitive edge. 
+Data is an important asset and your databases need to function irrespective of the time of year. 
+During the festive season there is an even greater risk as often there are no staff in the building to notice if something goes awry with the database or server. 
+The quiet achievers of emergency services Emergency services such as police, ambulance and fire brigade often have to do heavy lifting at this time of year. 
+Those are life and death situations requiring immediate action. 
+Database issues or interruptions are not of the same gravity but their impact, if unchecked, can be significant. 
+Data breaches, system failures and other events can lead to disastrous consequences. 
+This is why WARDY IT Solutions sees our Virtual DBA team as the quiet achievers of IT services – stopping potential disasters before they happen. 
+All in a Christmas Day’s work It gives us great pleasure to know that our clients can truly take time off at Christmas – or any time of year for that matter –  because we don’t. 
+Our Virtual DBA team shared a handful of database issues they worked on this Christmas season while we were all tucking into our ham and mince pies: Database Issue 1: Network Timeout When: 25/12/2018 – 12:34AM Type of Issue: Nightly Backup Job Failed Description: The nightly database backup job failed due to a network timeout. 
+Potential Impact: Database backups would not have ran on Christmas morning which could have resulted in permanent data loss if a disk failure or data corruption event had occurred before the Boxing Day backups ran. 
+Resolution: Virtual DBA team member re-ran the backup job which succeeded without incident. 
+Issue required no intervention from client. 
+Time of Resolution: 25/12/2018 – 3:54AM Database Issue 2: Insufficient disk space on backup storage drive When: 26/12/2018 – 4:41AM Type of Issue: Nightly Backup Job Failed Description: The nightly database backup job failed due to insufficient disk space on backup storage drive. 
+Potential Impact: Database backups would not have run on Boxing Day morning which could have resulted in permanent data loss if a disk failure or data corruption had occurred before backups were run the next day. 
+Resolution: Virtual DBA team member re-ran the backup job which succeeded without incident. 
+Issue required no intervention from client. 
+Time of Resolution: 26/12/2018 – 4:41AM Database Issue 3: Storage Failure When: 31/12/2018 – 10:47AM Type of Issue: BDM Load Data Job Failed Description: The job failed because of a storage failure Potential Impact: The disk that failed stored the data files required for several databases required for the job. 
+Specific business reports cannot run successfully without access to these databases. 
+Resolution: Virtual DBA team member investigated the issue and reported it to the company whose Infrastructure Team had to resolve the disk failure. 
+Time of Resolution: 2/1/2019 – 9:00am Get access to this peace of mind all year round How about you? 
+Did you get a call on Boxing Day saying your systems were down? 
+Or did you walk back into work on the 2nd January making a new year’s resolution never to take time off again? 
+What database problems did your IT team have during their much-needed time off? 
+Our Virtual DBA clients’ databases were continually assessed and monitored. 
+Even incidents that happened in the middle of the night were immediately picked up and addressed. 
+Get in touch with us to start a risk-free 30-day trial and maybe this year you can give yourself, your business and your staff the present of true time off with true peace of mind. 
+This entry was posted in Virtual DBA . 
+Bookmark the permalink . 
+WARDY IT Solutions WARDY IT Solutions - Australia's leading SQL Server consultants, trainers and Business Intelligence specialists. 
+WARDY IT Solutions has established itself amongst the top solution providers in SQL Server technologies providing solutions for customers throughout Asia Pacific. 
+17 Aug SQL Server on Linux Comments Off on SQL Server on Linux September 14, 2020 We have assisted numerous customers modernise their data warehouse. 
+Download our ebook and learn the [...] Sign up for WARDY IT’s Power BI Essentials course September 2, 2020 Sign up to our Power BI Essentials course to learn the skills to gather, analyse [...] August 2020 Roundup: In a Day workshops, Power BI Essentials, and SQL Server Auditing September 1, 2020 We have onboarded numerous new Virtual DBA clients to assist with increasing operational excellence and efficiency. 
+[...] SQL Server on Linux August 17, 2020 With SQL Server on Linux, you can run the relational database engine on an enterprise [...] July 2020 Roundup: Isentia Case Study, Azure Synapse Webinar, August QSSUG and more August 3, 2020 We have onboarded numerous new Virtual DBA clients to assist with increasing operational excellence and efficiency. 
+[...] SQL Server Auditing July 30, 2020 With more people working from home at present and as companies move more resources and [...] Webinar: Introduction to Azure Synapse July 23, 2020 The spread of COVID-19 will disrupt businesses. 
+In this webinar we’ll discussing  10 strategies that [...] August 2020 QSSUG: DevOps and the Data Professional July 22, 2020 In this webinar, Hamish is demystifying the concepts of DevOps and we will look at [...] Azure Synapse Analytics: New Workspace Experience July 7, 2020 Azure Synapse Analytics Workspace is already in public preview and anyone can create the service. 
+[...] Azure Synapse or Azure SQL Database – Which one to consider for Data Warehouse July 6, 2020 We are seeing a rapid increase in the adoption of data warehouse on the Microsoft [...] June 2020 Roundup: July’s QSSUG, MOQ’s attendance at Microsoft Build conference, and Azure Synapse July 2, 2020 For many organisations, the end of financial year cannot come soon enough as this provides [...] Virtual DBA Service Q1 20/21 Roadmap June 30, 2020 We developed SQL Beacon™ and MyVirtualDBA™ to underpin our world-class team of DBAs who work [...] CONTACT 1300 WARDY IT (927 394) contact@wardyit.com International:  +61 7 3054 5300 NZ:  0800-440983 UK:  0-800-098-8432 US:  1-800-290-6831 KEY SITE LINKS
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc505846</DOCNO>
+<DOCID>doc505846</DOCID>
+<TEXT>
+EN EN EN EN EN EN ANNUAL WORK PROGRAMME 2009 CRIMINAL JUSTICE INTRODUCTION The aims of the Criminal Justice Programme, adopted by Council Decision No 2007/126/JHA on 12 February 20071, (hereafter referred to as "Programme"), include promoting judicial cooperation based on mutual recognition and mutual confidence, promoting the compatibility in rules applicable in the Member States as may be necessary to improve judicial cooperation and to improve exchange of information. 
+For 2009, the Commission has proposed a budget for this programme of € 30.4 Million. 
+The relevant budget heading is 18.06.06. 
+The annual programme covers priorities in 2009 and consists of the following parts and types of action: Part Types of actions Envisaged budget I. 
+Grants A Action grants, i.e. co-financing of transnational and national projects € 14.900.000 B Operating grants to non-governmental organisations € 1.000.000 C Action grants foreseen within framework partnerships € 3.500.000 D Grants to bodies in monopoly situations € 4.000.000 II. 
+Public procurement contracts € 7.000.000 Total: € 30.400.000 It is envisaged that calls for proposals will be published on the European Commission's website around October 2008. 
+EXPECTED OUTCOME The projects and other actions are expected to contribute to the achievement of the general as well as the specific objectives of the programme. 
+The following results are expected: Training (Part I. A, Part I. C, Part I. D including the exchange programme) • Improvement of mutual trust between judicial authorities in Member States and contribution to the development of a European judicial culture, based on respect for the different legal systems and traditions of the Member States. 
+• Increased knowledge amongst legal practitioners2 of EU legal instruments in the field of criminal justice. 
+1 OJ L 058, 24.02.2007, p.13,. 
+2 As defined in Article 6 of the Council Decision of 12 February 2007 establishing for the period 2007 to 2013, as part of the General Programme on Fundamental Rights and Justice, the Specific Programme ‘Criminal Justice’ (2007/126/JHA), i.e., inter alia, judges, prosecutors, advocates, solicitors, ministry officials, court officers, bailiffs, court interpreters and other professionals involved in the work of the judiciary in the area of criminal law. 
+EN EN • Improvement of language skills of legal practitioners involved in cross-border cooperation. 
+• Better knowledge amongst legal practitioners of other Member States' legal systems. 
+• Reinforcement of cooperation between national institutions responsible for training judges and/or prosecutors. 
+• Strengthening of the European Judicial Training Network (EJTN). 
+Studies and concrete projects, and operating grants (Part I. A, B and part II.) • Study and improvement of judicial cooperation in criminal matters. 
+• Study and exchange of best practice on aspects of legal procedures and administration of justice, including rights of defence and e-justice. 
+• Improved evaluation of EU legal instruments in the field of criminal justice. 
+• Development of networks of authorities, legal practitioners and academics. 
+Supporting victims of crime (Part I. A) • Provision of support to victims of crime. 
+• Increased representation of, and solidarity with, victims of terrorism. 
+Criminal records (Part I. A and part II.) • Supporting projects with the aim of facilitating interconnection between national criminal records systems. 
+e-Justice (part I. A and part II.) • Studies and development of e-Justice projects PART I: GRANTS A. ACTION GRANTS All areas identified in the “Criminal Justice” programme3 are open for proposals. 
+However, in 2009, the following priorities have been identified. 
+Proposals submitted outside these priorities will be funded if the available budget permits. 
+The total budget for action grants is € 14.9 million. 
+1. Judicial training (transnational projects) (1) Training in EU legal instruments and policies (2) Language training (3) Developing a European judicial culture 2. Judicial training (by national training institutions) Judicial training offered by national judicial training institutions in coordination with the European Judicial Training Network (EJTN) on the subjects specified above under point 1, with participants from different Member States. 
+3 OJ L58 of 24.2.2007, p. 
+13. 
+EN EN 3. Studies and concrete projects with the following objectives: (1) Improving judicial cooperation in criminal matters • Cooperation with and through Eurojust and the European Judicial Network (EJN) in criminal matters as well as direct cross border cooperation between judicial authorities, • Defence rights, including in transnational cases, • Using international conventions, such as the EU 2000 Convention on Mutual Assistance in Criminal Matters and its 2001 Protocol; • Cooperation between victims support organisations, • Supporting or improving the implementation of adopted EU instruments, in particular with a view to 
+(a) networking and exchange of best practice between practitioners, or 
+(b) introducing a kind of "after sales service" for national administrations and citizens, • Identification of effective measures in the area of Restorative Justice.
+. 
+(2) Improving mutual knowledge and exchanging best practice Projects should be comparative studies or concrete cooperation projects based on direct cooperation, such as twinning (of courts, prosecution offices, bar associations or prison/probation administrations) and with the objective of identifying best practice and/or developing common projects in the following areas: • Administration of justice and case management, including offender assessment, • Restorative justice and mediation, • Access to justice and information on rights, • Translation and interpretation in criminal proceedings, • Evaluation by relevant professionals of specific EU instruments, • Prosecuting violations of international humanitarian law. 
+4. Supporting victims of crime • to inform and support victims of crime and/or family members to recover from their experience, on the basis of knowledge on the situation of victims of crime, their need for information and support, including information on preventing victimisation, whether primary, secondary or repeat victimisation, by means of legal, social or medical and psychological support provided by organisations and/or their networks; and/or • to increase representation of, and solidarity with, victims of terrorism. 
+• Actions may include training, dissemination of information, exchange of information and best practice, sharing of resources, cooperation building and solidarity networks or seminars as well as solidarity and assistance programmes. 
+Concrete actions targeted directly at victims of crime must be evidence-based. 
+Envisaged budget for this action: € 2.2 million. 
+5. e-Justice EN EN To help develop the use of electronic tools in the context of justice and on the basis of exchange of best practice. 
+All projects will have to show how they contribute to the improvement of interoperability at European level. 
+Projects could relate to: • support to translation, • support to transnational use of videoconferences, • training, • development of e-Signature in the justice field, • development of paperless procedures, • creation of databases with national legislation and/or case law of the Member States relevant for the application of mutual recognition instruments or instruments approximating substantive criminal law. 
+Emphasis will be given to support of best practices development through transnational pilot projects. 
+6. Criminal records National and transnational projects on interconnecting national criminal record systems within the EU will be eligible for support. 
+€ 6 millions will be allocated to this for grants. 
+Exchange of information about convictions in the EU is to be facilitated through the creation of a computerised system of exchange of information. 
+Co-funding will be available for improvements to national criminal records systems so that they can exchange information electronically with other criminal records systems. 
+Projects should have one or more of the following objectives: • Appropriate modernisation and computerisation of national criminal records systems where necessary: this could involve preparatory/feasibility studies, project development, purchase of computer software and possibly hardware. 
+• Dedicated training of personnel working for national criminal record authorities, e.g. training on the functioning of their national systems, as well as specific training for those in charge of dealing with other criminal record systems/foreign authorities (e.g. training about the specificities of other Member States' criminal record systems). 
+• Projects aimed at improving the identification of convicted persons registered in national criminal records: e.g. links between criminal records systems and other registers (ongoing proceedings register, police, national identification register, etc); inclusion of biometric information/fingerprints in national criminal record systems. 
+• Projects aimed at facilitating the exchange of information extracted from criminal records between Member States' national authorities for purposes other than criminal proceedings. 
+• Projects aimed at interconnecting with other national criminal records systems. 
+These may include studies, preparatory meetings, translation of documents, technical and legal support to improve mutual understanding of criminal records information and technical exchanges. 
+B. OPERATING GRANTS EN EN Following a call for proposals, operating grants4 may be awarded to non-governmental, non- profit making organisations and bodies pursuing one or several objectives of the Programme with a European dimension. 
+The global budget envisaged under this heading is 1.000.000 €. 
+The aim of this grant is to support the implementation of the annual activity programme of these entities during their financial year starting in 2009 by co-financing the expendi
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc506726</DOCNO>
+<DOCID>doc506726</DOCID>
+<TEXT>
+My Lords, I am grateful for this...: 27 Jun 2017: House of Lords debates - TheyWorkForYou Queen’s Speech - Debate (4th Day) Part of the debate – in the House of Lords at 3:30 pm on 27th June 2017 . 
+My Lords, I am grateful for this opportunity to open this third day of debate on the gracious Speech. 
+The focus of today’s debate is home affairs, justice, constitutional affairs, devolved affairs, communities and local government. 
+The debate will enable us to explore some of the key themes of the gracious Speech, including seizing the opportunity to reshape our immigration system as we leave the European Union, tackling injustice, protecting our communities and strengthening the union between England, Scotland, Wales and Northern Ireland . 
+I and my noble friend Lord Bourne look forward to hearing the many contributions from noble Lords who have put their names down to speak. 
+Given the wealth of experience represented on all sides of the House, I am sure that we will have the benefit of many thought-provoking insights into the challenges and opportunities facing our nation at the start of this new Parliament. 
+I want to begin by addressing the tragic Grenfell Tower fire. 
+I know that the whole House shares my heartfelt sympathy for those who have lost loved ones and those who have had their lives devastated. 
+We owe it to all those who have suffered to establish exactly what happened and to learn the lessons of this appalling tragedy. 
+To that end, we will establish a full public inquiry. 
+As the Prime Minister said in her Statement in the House of Commons last week, it will be chaired by a judge to get to the truth about what happened and who was responsible, and to provide justice for the victims and their families, who suffered so terribly. 
+The families of victims will be consulted on the terms of reference under which the inquiry proceeds. 
+The Prime Minister has also set out her expectation that the inquiry will produce an interim report as quickly as possible. 
+We are committed to providing funding for residents and victims’ families so that they can be legally represented at the inquiry. 
+We must ensure that victims’ voices are properly heard. 
+That is why there will also now be an independent public advocate to help bereaved families after major disasters. 
+The Grenfell Tower fire is not the only tragedy that we have faced in recent months which has affected the whole nation. 
+Communities in Manchester and London have had to endure unimaginable horrors. 
+What ought to be everyday activities—be it visiting tourist attractions, attending a concert, enjoying a night out, or simply chatting with friends at the end of prayers at the local mosque—have been perverted by both Islamist and far-right extremists alike. 
+In the face of such horrors, time and again we have seen our communities come together, demonstrating unwavering acts of kindness and generosity in support of their neighbours. 
+We will not let such provocations change the true character of Britain as a wonderfully diverse, open and inclusive country. 
+The Government have long had a role in protecting the public from terrorism. 
+In the previous Parliament, we announced a 30% increase over five years in cross-government spending on counterterrorism and enacted new legislation to ensure that the police and intelligence agencies have the powers that they need to keep the public safe. 
+But we cannot stop there. 
+As the terrorist threat evolves, we must continue to learn lessons and further improve our response. 
+The gracious Speech therefore included a commitment to review our counterterrorism strategy. 
+The review will not only look at the existing legislative framework, including the sentencing powers of the courts, but seek to apply the lessons we have learnt from our response to the events leading up to, during, and in the aftermath of the recent attacks. 
+This review will inform a strengthened approach to counterterrorism. 
+Should the review find that further legislation is necessary, your Lordships’ House can be assured that we will put this before Parliament. 
+We also have a responsibility to protect the public from the harms which extremists pose to our society. 
+This is why the Government are establishing a powerful new Commission for Countering Extremism . 
+The commission will play a key role in supporting communities and the public sector to identify and confront extremism. 
+It will promote our fundamental values and support integration, and it will advise the Government on the policies needed to tackle the evolving threat from extremism. 
+Challenging extremism is not a new government objective. 
+The new commission will build on the comprehensive programme of work set out in the counter-extremism strategy. 
+This strategy is all about working with communities, standing up for our fundamental values, supporting integration and striving to defeat extremism. 
+However, there is more that we can and must do. 
+The Commission for Countering Extremism will play a crucial part in supporting future efforts to stamp out extremism in this country. 
+This Government will stand with our communities. 
+Together, we will defeat terrorism and extremism, and ensure that our pluralistic British values are given the opportunity to flourish. 
+The gracious Speech also set out our plans to bring forward a landmark Bill to tackle domestic abuse. 
+This Government are determined to build a society that does not tolerate domestic abuse, in which victims and their families feel safe and supported in seeking help, and where perpetrators are dealt with effectively. 
+However, legislation can only ever be one part of the solution so the provisions in the Bill will be accompanied by a full programme of non-legislative measures backed by the £20 million of funding announced in the last Budget. 
+Fundamental to the Bill will be the introduction of a statutory definition of domestic abuse. 
+We want to dispel the myth that domestic abuse is solely about violence and to provide absolute clarity and certainty to both the public and professionals that at the root of much domestic abuse is a pattern of control which can take many forms, including financial control, verbal abuse and emotional harm. 
+Without domestic abuse being properly understood and recognised, we will not be able to provide victims with the support that they are entitled to receive. 
+The Bill will also create a bespoke new domestic abuse prevention and protection order regime. 
+The current protective orders landscape can be confusing. 
+It is not always clear to victims and professionals how orders can best be used to protect victims of domestic abuse. 
+A new order specific to domestic abuse will provide a single, clear pathway for all concerned, offer better and earlier protection for victims and do more to tackle the root causes of offending behaviour. 
+The Bill also responds to the devastating and lifelong impact that domestic abuse has on children, who can carry the traumatic events into adulthood. 
+We want to make sure that the criminal law and sentencing frameworks clearly and explicitly recognise the harm to children who are exposed to domestic abuse, and that sentences adequately reflect the seriousness of this offending. 
+The Bill will also establish a domestic violence and abuse commissioner, to stand up for victims and survivors, raise public awareness, monitor the response of statutory agencies and local authorities and hold the justice system to account in tackling domestic abuse. 
+We are committed to having a robust and thorough consultation on both the legislative proposals and the non-legislative programme. 
+I am sure that noble Lords—I can see some of them before me—will want to engage with this process. 
+We need to ensure that the criminal justice system works for all victims of crime—a sentiment which I am sure my noble friend Lady Newlove would endorse. 
+That is why the gracious Speech also included a commitment to introduce legislation to modernise the courts and tribunals system. 
+We want a world-class courts system that provides straightforward and efficient access to justice, including through the better use of technology, and provides targeted support and care for those who need it. 
+As we leave the European Union, we will need to establish a new framework for regulating immigration of European Union nationals and their family members. 
+By enabling us to set our own domestic rules, we can better balance the requirements of the UK economy with the need to reduce net migration to sustainable levels. 
+We have made some progress in this direction, with the most recent figures showing a 25% fall in net migration in the year to December 2016 compared with the previous year, but we need to do more. 
+To help us deliver on this objective, the Immigration Bill will enable us to end the European Union rules on free movement for EU nationals, ensuring that we have the flexibility to create a fair and controlled immigration system. 
+As has been the case under successive Governments, the details of the new arrangements will be set out in immigration rules which will be subject to scrutiny by Parliament. 
+Although I cannot pre-empt EU negotiations, I can assure noble Lords that we will maintain the common travel area, thereby safeguarding the ease of movement across the Irish land border. 
+In developing our future immigration system, we are clear that we need to meet the needs of businesses and communities, and we will ensure that both have an opportunity to contribute their views. 
+Our objective is to put in place an immigration system which is right for the UK economy and for the country as a whole. 
+This leads me to the subject of devolved affairs. 
+The gracious Speech was very clear in stressing the importance that the Government place on working constructively with the devolved Administrations. 
+This will be especially vital in relation to work on our exit from the European Union. 
+We have been clear from the start, and throughout the discussions, that the UK Governmen
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc507942</DOCNO>
+<DOCID>doc507942</DOCID>
+<TEXT>
+No killer of journalists punished in last five years: report - Pakistan - DAWN.COM The report’s author, Adnan Rehmat, speaks at the launch on Friday. 
+Former senator Farhatullah Babar is also seen. 
+— White Star ISLAMABAD: As many as 26 journalists have been murdered in the country during the last five years and none of the killers have been punished, said a report launched on Friday. 
+The report, formulated by ‘Freedomnetwork’, was set to be launched on November 2 — the International Day to End Impunity for Crimes Against Journalists — it was delayed due to the sit-in at Faizabad and protest rallies against Supreme Court’s decision on Aasia Bibi. 
+According to the report, launched in the National Press Club, during the period from 2013 to 2018, 26 journalists were murdered. 
+Punjab proved to be the most dangerous place, with eight mediapersons having been killed while performing their duties. 
+Seven journalists were killed in Khyber Pakhtunkhwa and five each in Sindh and Balochistan. 
+The report, authored by Adnan Rehmat and Iqbal Khattak, highlighted that the killers included mysterious, nameless and unidentified actors. 
+One group of killers were non-state actors such as militants and outlawed groups while some killings were attributed to political parties and religious groups. 
+It added that the state had failed in its responsibilities to pursue justice for the murdered journalists. 
+Speaking on the occasion, Press Council of Pakistan Chairman Salauddin Mengal criticised the lack of interest from all stakeholders and the respective governments to improve the standard of journalism. 
+“The press council does not have the capacity to monitor all 2,200 daily newspapers in the country,” he added. 
+Mr Mengal said it was the responsibility of media bodies and owners to help the relevant authorities modernise media-related laws. 
+The participants discussed the status of journalists’ protection bill finalised by the Senate Standing Committee on Information. 
+Former senator Farhatullah Babar, who was in the standing committee that finalised the bill, called for a debate in all provincial and federal legislatures on the issue of impunity of crimes against journalists and devise a legal framework to ensure protection and safety of mediapersons. 
+“Crimes against journalists basically were committed by those who do not tolerate freedom of expression. Without free media there can be no free parliament and no free political activities,” he added. 
+Senior journalist and union leaders M. Ziauddin and Nasir Malik spoke on the occasion and decried the ongoing economic strangulation of media workers and demanded that the government should intervene in the matter. 
+Published in Dawn, November 17th, 2018 Read more On DawnNews Filmstrip Advertisement 01 06 08 01 Mar 2021 01 Mar 2021 Updated 01 Mar 2021 Updated 28 Feb 2021 Updated 28 Feb 2021 FOR decades, successive governments in the country have talked about police reforms. 
+While the latter are essential,... 
+Advertisement ‹
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc508967</DOCNO>
+<DOCID>doc508967</DOCID>
+<TEXT>
+Declarations of interest by Councillor Colin Clarke, 8 August 2016 - 19 August 2017 | Cherwell District Council Committee: Select a committee All Accounts, Audit and Risk Commi Appeals Panel Banbury Bus Station and Relate Banbury Sports Ground Manageme Bicester and Ploughley Sports Bicester Strategic Delivery Bo Budget Planning Committee Chief Executive Appointment Pa Community Select Constitution Constitution Review Working Gr Corporate Governance Panel Council Crime and Anti-Social Behaviou Customer Service, Resources an Development Committee Development, Customer Service Development, Customer Services Duns Tew Parish Council Electoral Review Emergency General Purpose Comm Environment & Community Select Environment and Community Stra Environment Select Environmental Committee Executive Hackney Carriage & Private Hir Head of Improvement Appointmen Health Scrutiny Housing Committee Joint Appeals Committee Joint Appraisal Sub Committee Joint Commissioning Committee Joint North&South Area - Local Joint Personnel Committee Joint Scrutiny Committee Joint Shared Services and Pers Joint Shareholder Committee Kidlington & Gosford Sports Ce Licensing Committee Licensing Committee & Service Licensing Sub Committee Local Codes of Conduct Hearing North Area Planning Committee Overview and Scrutiny Co-ordin Overview and Scrutiny Committe Oxfordshire Growth Board Oxfordshire Waste Partnership Parish Liaison Meeting Parish Remuneration Panel Personnel Committee Personnel Sub Committee Planning Committee Planning, Housing and Economy Policy Private Sector Housing Strateg Recreation Regulatory & Services Appeals Resources and Performance Scru Resources Committee Resources Select Committee Review of Scrutiny Scrutiny Review Groups Serious Incident Review Meetin Shareholder Committee South Area Planning Committee Sports Centre Modernisation Wo Standards Committee Tenants Consultative Thames Valley Police and Crime The Standards Committee Town Centre Strategies Working Urban Centres Officers Working Urgency Category: Any Conflict of Interest Declaration Disclosable Pecuniary Interest Non Statutory Interest Councillor: Any Anderson, Councillor David An Atack, Councillor Ken Atack Banfield, Councillor Hannah B Beere, Councillor Andrew Beer Bell, Councillor Claire Bell Bignell, Councillor Nathan Bi Billington, Councillor Mauric Bishop, Councillor Mike Bisho Broad, Councillor John Broad Brown, Councillor Hugo Brown Chapman, Councillor Phil Chap Cherry, Councillor Mark Cherr Clarke, Councillor Colin Clar Copeland, Councillor Conrad C Corkin, Councillor Ian Corkin Cotter, Councillor Nick Cotte Dhesi, Councillor Surinder Dh Donaldson, Councillor John Do Gaul, Councillor Sean Gaul Griffiths, Councillor Carmen Hallchurch, Councillor Timoth Heath, Councillor Chris Heath Holland, Councillor Simon Hol Hughes, Councillor David Hugh Hussain, Councillor Shaida Hu Ilott, Councillor Tony Ilott Kerford-Byrnes, Councillor Mi Lis, Councillor Jolanta Lis MacKenzie-Wintle, Councillor Macnamara, Councillor James M Mallon, Councillor Kieron Mal Mawer, Councillor Nicholas Ma McHugh, Councillor Andrew McH Mepham, Councillor Tony Mepha Middleton, Councillor Ian Mid Milne-Home, Councillor Alasta Moon, Councillor Perran Moon Morris, Councillor Nigel Morr Mould, Councillor Richard Mou Perry, Councillor Cassi Perry Pickford, Councillor D M Pick Pratt, Councillor Lynn Pratt Randall, Councillor Nigel Ran Reynolds, Councillor George R Rhodes , Councillor Sandra Rh Richards, Councillor Barry Ri Sames, Councillor Dan Sames Sibley, Councillor Les Sibley Simpson, Councillor Nigel Sim Slaymaker, Councillor Jason S Turner, Councillor Nicholas T Tyson, Councillor Katherine T Wallis, Councillor Tom Wallis Webb, Councillor Douglas Webb Webster, Councillor Fraser We Williams, Councillor Bryn Wil Wing, Councillor Lucinda Wing Wood, Councillor Barry Wood Woodcock, Councillor Sean Woo  Declarations  
+</TEXT>
+</DOC>
+

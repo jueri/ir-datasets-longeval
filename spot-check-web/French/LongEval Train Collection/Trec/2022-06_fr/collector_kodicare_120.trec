@@ -1,0 +1,123 @@
+<DOC>
+<DOCNO>doc1187287</DOCNO>
+<DOCID>doc1187287</DOCID>
+<TEXT>
+Uzbekistan | Vestnik Kavkaza 22 Nov in 17:20 In accordance with the political culture typical of the Uzbek elite, the struggle will be rather private 20 Nov in 22:00 Secretary of the Security Council of Armenia Armen Grigoryan, who is in Moscow to attend the 7th meeting of Secretaries of the Security Councils of CIS countries, had a meeting with Secretary of the Security Council of Uzbekistan Viktor … 17 Nov in 0:30 The privatisation campaign is part of broader reform drive aiming to modernise and open up the economy 8 Nov in 17:05 According to experts, there are some inconsistencies in the official version of the border crossing attack 6 Nov in 10:40 An armed group attacked an outpost on the Tajik-Uzbek border at night, the press center of the Border Forces of Tajikistan’s State Committee for National Security said. 
+"At night on November 6, 2019 at 03:23 an armed … 5 Nov in 22:37 Dmitry Medvedev invited the SCO countries to join efforts and provide assistance to Afghanistan 30 Oct in 12:40 The 77th meeting of the Council of Defense Ministers of the Commonwealth of Independent States was held in Baku today. The event is attended by Russian defense minister Sergey Shoygu, Belarus defense minister … Underperforming legacy loans will be transferred to a state fund Bhutan is the No1 country, followed by England and Macedonia 17 Oct in 12:20 Tashkent has already begun using the BTK to transport its cotton and a number of other export goods 16 Oct in 2:00 Russian MPs claim Tashkent’s intention to join the Eurasian Economic Union 15 Oct in 11:00 The 7th summit of the Cooperation Council of Turkic Speaking States (Turkic Council) is kicking off today in Baku. The summit will be held with the participation of leaders of Turkic-speaking states - President of Azerbaijan … 11 Oct in 12:10 The meeting of the Council of CIS Heads of State attended by Russian President Vladimir Putin and Azerbaijani President Ilham Aliyev, is being held in Ashgabat, Turkmenistan. The CIS leaders will review … The country is in the process of "reformatting relations with regional organizations" More Japanese business investment wanted as Chinese presence reigns supreme President of Uzbekistan Shavkat Mirziyoyev will visit Russia in February 2020, Russian Federation Council (upper house) Speaker Valentina Matviyenko said at a meeting with Speaker of Uzbekistan’s Senate (Oliy … Bringing Mugham to the West. 
+Jeffrey Werbock Nika Kocharov & Young Georgian Lolitaz - Midnight Gold (Eurovision 2016 Georgia) Iveta Mukuchyan - LoveWave (Eurovision 2016 Armenia) Samra - Miracle (Eurovision 2016 Azerbaijan) Sergey Lazarev - You are the only one (Eurovision 2016 Russia) RSUH celebrates 25th anniversary! 
+Ludmila Kozlova: How to treat a child with chicken pox 1 2 3 4 5 6 7 8 News
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc1190135</DOCNO>
+<DOCID>doc1190135</DOCID>
+<TEXT>
+Migrations, seeds and pipelines - Made Tech We work alongside brilliant public servants to modernise technology and accelerate digital delivery. 
+We work across the UK public sector, helping organisations to provide better outcomes for citizens. 
+Stay up to date with the latest insights, news, and events from our experts. 
+Join us in delivering technology that positively impacts the future of the UK. 
+Most applications you write rely on certain data stored in a database that is essential for it to work. 
+That data defines your business logic as much as the code. 
+That data should be represented in code. 
+In this post I’ll discuss how we handle migrations and seed data through our Continuous Delivery pipeline at Made. 
+If you’re currently practising this correctly, you’d be able to delete your database and migration files, and be in a production-like state in less than a minute with a couple of commands. 
+You don’t want to have to manually setup—or try and remember—what data you need so that you’re in a position to code if you’re starting afresh. 
+You should only need to run rake db:setup or rake db:reset if you’ve already got a database created. 
+These commands will handle the setting up of the structure (or schema) of your database, and the data that it contains. 
+Schema As you’re building your app, you write migrations incrementally as you go along. 
+You run rake db:migrate so that your database structure is altered and for the changes to be reflected in your db/schema.rb file. 
+This is the single source of truth for the current structure of your database. 
+When you or another developer wants to work on the project, you should be able to just run rake db:setup in order for the database to be created, and for the current version of your schema to be setup. 
+There’s no need to run the migrations for a fresh project clone. 
+Why run through each migration sequentially when db/schema.rb has the end result? 
+As you continue to develop the project in a team, add more migrations, you’ll want to run rake db:migrate to get the latest changes that differ from what you already have. 
+Data Migrations are a means to alter your database schema, but also can potentially be used to alter the data contained within it. 
+You might have used a migration to populate your app data, or have done it manually via an admin interface or the Rails console. 
+But the thing to bear in mind is that your db/schema.rb file only contains your database structure. 
+The data you add to the database isn’t persisted anywhere in code. 
+So if you have to reset your database, or someone new works on the project, if they run a rake db:setup they’ll get a database with the correct structure and zero data. 
+An example Rails migration: class AddPreferencesToSpreeOrders < ActiveRecord::Migration def change add_column :spree_orders, :preferences, :text end end The changes in this file will be reflected in the db/schema.rb file. 
+This is where db/seeds.rb comes in handy. 
+This file is to data what db/schema.rb is for the structure. 
+The difference though is that you have to manage this file yourself. 
+When you create a migration that alters the data somehow, Rails won’t be updating the db/seeds.rb file for you. 
+An example Rails seed file: Spree::ReturnAuthorizationReason.create!
+(name: 'Not satisfied with the item') 
+Spree::ReturnAuthorizationReason.create!
+(name: 'Colour appearance') 
+Spree::ReturnAuthorizationReason.create!
+(name: 'Wrong size') 
+And corresponding migration file to include it: class SeedDefaultReturnAuthorizationReasons < ActiveRecord::Migration def change Spree::ReturnAuthorizationReason.delete_all require_relative('../seeds/return_authorization_reasons') end end Anything altered in the database as a result of this migration will not be reflected in the db/schema.rb file. 
+When you run rake db:setup or rake db:reset Rails will create/empty your database, load your current schema, and then run the db/seeds.rb file to populate the database. 
+By mirroring the data your app requires in code in the db/seeds.rb file, you can get yourself or others up to speed much quicker. 
+That may be a set of categories, tags or users, for example. 
+Breaking down your seed data into multiple files helps you organise it into logical pieces. 
+require_relative is your friend to load in additional files. 
+Setting up a bunch of users? 
+Throw that all in a db/seeds/users.rb file. 
+Then require_relative(‘seeds/users.rb’) in your db/seeds.rb file. 
+Up the pipeline This isn’t to say that you should stop writing migrations and use seeds solely as a means to get your data into your database. 
+It’s not practical to reset your database everytime, nor can you expect other developers on your team to do this. 
+You’ll want to get the data into your local environment via a migration as you want to be sure it works fine for others. 
+Also, because you probably have a Continuous Delivery pipeline (right?) where you need to get seed data up to your production environment, it’s completely unrealistic to reset the production database. 
+Migrations are the only solution. 
+This is why it’s important that the data in your migrations and seed data mirror one another so that if someone were to do a db:reset they’d have that same data as if it were added via a migration. 
+Graveyarding Once your migrations have been pushed through your pipeline, and your db/seeds.rb file is current, it’s safe to delete your old migrations. 
+Though I’d recommend keeping the last 5 just in case you’re developing, trying something out, and may need to revert back. 
+Summary Discipline is essential. 
+And the best way to make sure you’re disciplined is to not be afraid to run a rake db:reset every so often. 
+If there’s something you find yourself manually adding to the data, it probably belongs in a seed. 
+If you’re ever tempted to add something to the db that is essential and should be in code, then: Write a migration with the change Ensure that the data the migration is changing is reflected in db/seeds.rb so that if you rake db:reset you’d have the same state of data Push the migration through your pipeline Remove all but the last 5 migrations in your project to keep things clean David Winter Senior Technology Adviser at Made Tech. 
+Code, coffee, cake and Eurovision. 
+In no particular order. 
+Download a copy of our new book Legacy technology is one of the biggest threats to public sector organisations. 
+Whether you’ve started your journey already or don’t know where to begin, this 160-page book has been written to guide you to define and implement the right approach for your organisation. 
+Services © Made Tech Limited 2021 | Registered in England No. 
+06591591 | VAT No. 
+938565184 | Privacy Policy Made Tech Group Plc | Registered in England No. 
+12204805 We use cookies to give you the most relevant experience. 
+Please let us know if you accept the use of ALL the cookies or visit "Cookie Settings" to provide a controlled consent. 
+Cookie Settings Accept All Manage consent Close Privacy Overview This website uses cookies to improve your experience while you navigate through the website. 
+Out of these, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. 
+We also use third-party cookies that help us analyze and understand how you use this website. 
+These cookies will be stored in your browser only with your consent. 
+You also have the option to opt-out of these cookies. 
+But opting out of some of these cookies may affect your browsing experience. 
+Necessary Necessary Always Enabled Necessary cookies are absolutely essential for the website to function properly. 
+These cookies ensure basic functionalities and security features of the website, anonymously. 
+Cookie Duration Description cookielawinfo-checkbox-analytics 11 months This cookie is set by GDPR Cookie Consent plugin. 
+The cookie is used to store the user consent for the cookies in the category "Analytics". 
+cookielawinfo-checkbox-functional 11 months The cookie is set by GDPR cookie consent to record the user consent for the cookies in the category "Functional". 
+cookielawinfo-checkbox-necessary 11 months This cookie is set by GDPR Cookie Consent plugin. 
+The cookies is used to store the user consent for the cookies in the category "Necessary". 
+cookielawinfo-checkbox-others 11 months This cookie is set by GDPR Cookie Consent plugin. 
+The cookie is used to store the user consent for the cookies in the category "Other. cookielawinfo-checkbox-performance 11 months This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Performance". 
+viewed_cookie_policy 11 months The cookie is set by the GDPR Cookie Consent plugin and is used to store whether or not user has consented to the use of cookies. 
+It does not store any personal data.
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc1194220</DOCNO>
+<DOCID>doc1194220</DOCID>
+<TEXT>
+Cities enter final battle to host super-casino News Blackpool, Cardiff, Glasgow and Greenwich are all possible contenders for Britain’s first ‘super-casino’, it was announced today. 
+The shortlist unveiled by the casino advisory panel also includes Manchester, Newcastle, Sheffield and Brent as sites for the regional casino, which will be able to have 1,250 gambling machines with an unlimited jackpot. 
+The Gambling Act 2005 also allows the establishment of eight large and eight small casinos across the country, and the shortlists for these have also been announced today. 
+However, the news is likely to reignite the fierce debate about whether such casinos are right for Britain at all, particularly after the culture secretary’s admission this morning that there had been an “explosion” in gambling in recent years. 
+But she told Today: “We had to modernise and update our gambling laws, and we have done that. We will have the most protective legislation in the world. “Everything that any operator or the gambling commission does will be in the context of three requirements – one is to ensure that funding is fair, the second is to ensure that children and the vulnerable are protected and the third that gambling is kept crime-free.” 
+Her admission came after figures from charity Gamcare show the number of people applying to it for counseling rose 41.3 per cent last year, many of them women. 
+Responding, shadow culture secretary Hugo Swire called for reassurances that the new casinos would be properly assessed for their social impact. 
+He added: “Given that the government has been using two different and out of date figures for the number of problem gamblers, we urgently need to know the true picture of gambling addiction in this country.” 
+In their deliberations, members of the casino advisory panel had to take into account the social impact the casinos would have on local people, as well as the potential they would have to regenerate the area. 
+Chairman Stephen Crow said: “I know that our decisions will cause disappointment to some, not least to authorities who had looked to their casino proposal as a means of alleviating severe problems of deprivation or even improving social conditions and meeting the need for economic regeneration. “But the competition Department for Culture, Media and Sport (DCMS) has been very strong, and so it is inevitable that some proposals, good enough though they may be in themselves, have to yield before more powerfully justified cases.” 
+Leader of Birmingham city council Mike Whitby said he was “obviously bitterly disappointed” that the city had not made it to the regional casino short list, adding: “We feel that the Midlands as a whole has been abandoned. “This decision has rejected a bid which had clear benefits to the region, touching many millions of people. An NEC casino would have massively benefited the region and been an asset to the nation.” 
+But there were celebrations elsewhere, and Steven Broomhead, chief executive of the north-west regional development agency, said he was “delighted” that Blackpool had made the final running for the ‘super-casino’. 
+“A regional casino would create enormous economic, tourism and regeneration benefits for Blackpool,” he said, adding: “Blackpool’s submission puts forward a very strong case and so to be included in the short list of locations is a great step forward.” 
+Cardiff Central MP Jenny Willott also welcomed the announcement, saying a regional casino would “bring millions to Cardiff’s economy, increase tourism and, most importantly, create several thousands jobs in the city”. 
+Why have the Independent endorsed the coalition? 
+sponsoredBlogvideoopinion former Trapped with your abuser: How the Home Office fails domestic violence victims sponsoredComment & Analysisvideoopinion former Veep competition: The winning f***ing entries sponsoredComment & Analysisvideoopinion former Comment: Don’t blame politics for Britain’s Eurovision flops Most read Opinion Formers
+</TEXT>
+</DOC>
+

@@ -1,0 +1,599 @@
+<DOC>
+<DOCNO>doc526653</DOCNO>
+<DOCID>doc526653</DOCID>
+<TEXT>
+Sweeping rewrite of police rules on table - The BVI Beacon Sweeping rewrite of police rules on table Coming on the heels of widespread protests around the world concerning the death of George Floyd and the role of police in communities, the House of Assembly is considering a … An officer with the Royal Virgin Islands Police Force directs traffic during the switch to a new flow of traffic in Road Town. 
+The House of Assembly is re-evaluating the Police Act, 2019, a bill meant to modernise law enforcement in the territory. 
+(File photo: JOEY WALDINGER) 
+Coming on the heels of widespread protests around the world concerning the death of George Floyd and the role of police in communities, the House of Assembly is considering a bill that would repeal and replace the current decades-old legislation governing law enforcement in the Virgin Islands. 
+“It is imperative that we know exactly what this replacement is, and not just us, but the public,” opposition member Julian Fraser said July 10 in the HOA. 
+“The public should have a say in what this bill is going to be.” 
+The Police Act, 2019 last went to standing select committee about four months ago . 
+It is designed to modernise the laws governing the police force. 
+Last Friday, members voted to once again send the bill to select committee while they seek more public input on the legislation. 
+Under the proposed act, the Royal Virgin Islands Police Force would be renamed the Royal Virgin Islands Police Service. 
+The bill also specifies the police commissioner’s general powers, details the qualifications necessary for police officers, prohibits officers from engaging in political activities, and generally outlines officers’ duties. 
+The power of search and seizure is also detailed, as is the power of detention and arrest. 
+The powers allocated to law enforcement drew concern from Mr. 
+Fraser, who questioned the constitutionality of clauses like one allowing officers to take fingerprints or other physical specimen from a person in custody. 
+Mr. 
+Fraser said the legislation should also include measures to address police brutality. 
+Education, Culture, Youth Affairs, Fisheries and Agriculture Minister Dr. 
+Natalio “Sowande” Wheatley agreed with Mr. 
+Fraser that the bill should be given special attention and extensive public consultation. 
+He cited his personal experiences with racial profiling here and abroad, and said legislators must ensure officers have the powers they need to do their jobs without infringing on community members’ civil liberties. 
+“It’s something that we have to keep an eye on and be diligent about,” Dr. 
+Wheatley said. 
+“We have to pay attention to it to ensure we do not allow an element to creep into our society which we identify as police brutality, police misconduct.” 
+Post navigation     We use cookies on our website to give you the most relevant experience by remembering your preferences and repeat visits. 
+By clicking “Accept All”, you consent to the use of ALL the cookies. 
+However, you may visit "Cookie Settings" to provide a controlled consent. 
+Cookie Settings Accept All Manage consent Close Privacy Overview This website uses cookies to improve your experience while you navigate through the website. 
+Out of these, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. 
+We also use third-party cookies that help us analyze and understand how you use this website. 
+These cookies will be stored in your browser only with your consent. 
+You also have the option to opt-out of these cookies. 
+But opting out of some of these cookies may affect your browsing experience. 
+Necessary Necessary Always Enabled Necessary cookies are absolutely essential for the website to function properly. 
+These cookies ensure basic functionalities and security features of the website, anonymously. 
+Cookie Duration Description cookielawinfo-checkbox-analytics 11 months This cookie is set by GDPR Cookie Consent plugin. 
+The cookie is used to store the user consent for the cookies in the category "Analytics". 
+cookielawinfo-checkbox-functional 11 months The cookie is set by GDPR cookie consent to record the user consent for the cookies in the category "Functional". 
+cookielawinfo-checkbox-necessary 11 months This cookie is set by GDPR Cookie Consent plugin. 
+The cookies is used to store the user consent for the cookies in the category "Necessary". 
+cookielawinfo-checkbox-others 11 months This cookie is set by GDPR Cookie Consent plugin. 
+The cookie is used to store the user consent for the cookies in the category "Other. cookielawinfo-checkbox-performance 11 months This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Performance". 
+viewed_cookie_policy 11 months The cookie is set by the GDPR Cookie Consent plugin and is used to store whether or not user has consented to the use of cookies. 
+It does not store any personal data. 
+Functional cookies help to perform certain functionalities like sharing the content of the website on social media platforms, collect feedbacks, and other third-party features. 
+Performance cookies are used to understand and analyze the key performance indexes of the website which helps in delivering a better user experience for the visitors. 
+Analytical cookies are used to understand how visitors interact with the website. 
+These cookies help provide information on metrics the number of visitors, bounce rate, traffic source, etc. 
+Advertisement cookies are used to provide visitors with relevant ads and marketing campaigns. 
+These cookies track visitors across websites and collect information to provide customized ads. 
+Other uncategorized cookies are those that are being analyzed and have not been classified into a category as yet.
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc527908</DOCNO>
+<DOCID>doc527908</DOCID>
+<TEXT>
+Client Success: Avon and Somerset Constabulary Keeping law and order in Avon and Somerset Constabulary’s data "We enjoy working with EPI-USE Labs as they are responsive to our requests. They have brought us invaluable guidance." 
+Jon Pike, SAP Support Manager, Avon and Somerset Constabulary Project met all legal requirements Minimal downtime, with cutover in a weekend No additional hardware required Who is Avon and Somerset Constabulary? 
+There has been a police force serving the Avon and Somerset area for more than 180 years. 
+In 1835, the Municipal Corporation Act gave towns and cities the power to create their own professional police forces. 
+Bath and Bristol were among the first cities in the country to do this. 
+Avon and Somerset Constabulary (ASC), as we know it today, was formed in 1974 from the merger of the former Somerset and Bath Constabulary, the Bristol City Police Force and the Staple Hill division of Gloucestershire Constabulary. 
+Capturing legacy data In 2007, Avon and Somerset Constabulary became part of a joint venture called SouthWest One along with IBM, Somerset County Council and Taunton Deane Borough Council. 
+The aim was to modernise the public sector bodies' business processes. 
+By 2009, all of these organisations were using a common SAP® system. 
+SouthWest One was dissolved in July 2018. 
+EPI-USE Labs was responsible for carving out the data for Somerset County Council and Taunton Deane Borough and ASC inherited the systems, with the legal obligation to delete the SouthWest One data by December 2019. 
+EPI-USE Labs has excellent knowledge and experience, which has been of great benefit to us. 
+Jon Pike SAP Support Manager, Avon and Somerset Constabulary The solution: Data Sync Manager extracts legacy information in just one weekend Avon and Somerset Constabulary selected EPI-USE Labs’ System Landscape Optimisation (SLO) to remove the legacy data from their ECC and SRM systems. 
+The remaining systems were either ASC-specific or held data required for legal reasons. 
+Our SLO team used Data Sync Manager™ to create a test environment and copied only ASC data from the existing production environments. 
+This selection was refined through two further test cycles until only the required data could be copied. 
+In ECC, the selection was made on company codes. 
+This was not an option for SRM but EPI-USE Labs’ knowledge of the data structure allowed us to perform the selection in an automated way. 
+Once everyone was confident in the data selection, the cutover was completed within a weekend, copying the required data and overwriting the existing production environment. 
+This approach sped up the project significantly and minimised downtime. 
+Only the contained data was changed so it was straightforward for the team to re-establish the production environment. 
+I have been very impressed with EPI-USE Labs. 
+We've achieved a company code carve-out within short timelines. 
+Jon Pike SAP Support Manager, Avon and Somerset Constabulary Successful police back-up This project has been a success, with the scope completed within the original commercial agreement and planned timelines. 
+The inherited data was removed from the systems to comply with the contractual divestment requirements and GDPR legislation. 
+The project kept business disruption to a minimum during the final cutover and data deletion activities.      
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc528755</DOCNO>
+<DOCID>doc528755</DOCID>
+<TEXT>
+composteur – Zero Dech' Zéro Déch’ est une association loi 1901. 
+Copyright© 2019 Zero Dech'. 
+Site réalisé par SEP Actualités Nos actions
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc529171</DOCNO>
+<DOCID>doc529171</DOCID>
+<TEXT>
+Protocole défaillant à l’Institut Philippe-Pinel après une mutinerie avortée Colloque SST 2022 Calendrier des activités 6 mai 2021 Le syndicat des employés de l’Institut Philippe-Pinel déplore un manquement important au protocole après la découverte le jeudi 22 avril d’un plan de mutinerie dans l’unité F2, dédiée aux adolescents à haut risque de comportements violents. 
+Six adolescents sont impliqués. 
+Des armes improvisées et des courroies de fortune avaient été mises de côté en prévision […] Lire la suite 28 avril 2021 Ce mercredi à 11h11, l’ensemble du personnel du CIUSSS de l’Estrie-CHUS a observé une minute de silence dans le cadre de la Journée de commémoration des personnes décédées ou blessées au travail. 
+En Estrie, cette journée rend hommage aux 18 travailleuses et travailleurs de la santé et des services sociaux du Québec qui sont morts […] Lire la suite 21 avril 2021 Le Syndicat canadien de la fonction publique (SCFP) se désole de la prolongation du débat sur la nécessité d’utiliser le masque N95 dans les zones tièdes du réseau de la santé et des services sociaux. 
+Depuis le début de la pandémie, le SCFP et les autres organisations syndicales ont dû se battre bec et ongles […] Refus de travail et vaccination d’urgence dans deux écoles spécialisées de Québec 16 avril 2021 Le personnel de deux écoles spécialisées de Québec, des Quatre-Saisons et de la Cité, a pris les choses en main pour corriger une grave lacune de santé-sécurité. 
+Ce jeudi, ces travailleuses et travailleurs ont exercé leur droit de refus de travail pour exiger d’être vaccinés d’urgence. 
+Vu le nombre élevé de cas de COVID-19 à […] Lire la suite 29 janvier 2021 D’une voix commune, les présidentes et présidents des organisations syndicales du réseau de la santé et des services sociaux (APTS, FIQ, FIQP, FSQ-CSQ, FSSS-CSN, FP-CSN, SCFP, SQEES-FTQ) dénoncent haut et fort les directives du ministère de la Santé et des Services sociaux (MSSS) par lesquelles il refuse toujours l’accès au masque N-95 pour les salariés qui […] Appel à tous et à toutes: projet de loi n° 59 15 janvier 2021 La commission parlementaire chargée d’étudier le projet de loi n° 59, Loi modernisant le régime de santé et de sécurité du travail, débutera le 19 janvier prochain. 
+Ce projet de loi vient entre autres sabrer dans les mécanismes de prévention et restreindre l’accès à l’indemnisation ainsi qu’à la réadaptation. 
+Si le projet de loi n° […] Lire la suite 6 janvier 2021 Anticipant l’annonce concernant le confinement généralisé, les employés et employées de soutien scolaire membres de la FTQ, en première ligne depuis mars mais trop souvent dans l’angle mort du gouvernement du Québec, insistent sur des mesures essentielles au succès de l’opération. 
+Pour contribuer à ce que le confinement soit court et que la baisse des […] Lire la suite 1 décembre 2020 La section locale 5425 du SCFP lance un appel à l’action. 
+Ce grand syndicat, qui représente le personnel professionnel et technique du CIUSSS de l’Est-de-l’Île-de-Montréal, invite la population à signer une pétition qui demande au gouvernement du Québec de verser équitablement les primes reliées à l’exposition aux patients atteints de COVID-19. 
+Cliquez ici pour accéder […] Lire la suite 27 novembre 2020 Le Service de la formation du SCFP, en collaboration avec le Service de santé-sécurité du travail du SCFP, met à la disposition des membres de notre organisation un webinaire intitulé: «Le retour au travail après un long congé: comment le faciliter?» Ce webinaire, tenu le 17 novembre et animé par Emmanuelle Bournival, conseillère syndicale au […] Lire la suite 24 novembre 2020 Ce mardi en milieu de journée, le Syndicat canadien de la fonction publique (SCFP) a tenu un rassemblement devant l’Assemblée nationale en mémoire des 12 travailleurs et travailleuses des services publics québécois qui ont perdu la vie après avoir contracté la COVID-19 au travail. 
+Une centaine de personnes ont participé à l’événement. 
+Le SCFP a […] Lire la suite
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc529244</DOCNO>
+<DOCID>doc529244</DOCID>
+<TEXT>
+Loi sur l’immigration Sarkozy rassure Articles Similaires:
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc529245</DOCNO>
+<DOCID>doc529245</DOCID>
+<TEXT>
+Asso (2000) LOI 01/101412 LOI  01/101412 Hip: Not known - Elbows: Not known Linebreeding Pedigree SchH3 SCH1 User comments Add comment + No one has written a comment about Asso (2000) LOI 01/101412. 
+Be the first This is a dog pedigree, used by breeders and breed enthusiasts to see the ancestry and line-breeding of that individual dog. 
+The pedigree page also contains links to the dogs siblings and progeny (if any exist). 
+For dog owners with purebred dogs this is an excellent resource to study their dog's lineage. 
+VA Finn v Zellwadrand daughter Female for sale
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc529434</DOCNO>
+<DOCID>doc529434</DOCID>
+<TEXT>
+China Economic Journal Impact Factor | Abbreviation | ISSN - Journal Database Impact Factor Start year: Website: http://www.tandfonline.com/loi/rcej20
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc529503</DOCNO>
+<DOCID>doc529503</DOCID>
+<TEXT>
+Textes réglementaires Archive - Page 9 sur 13 - Avenir Secours 2004 08 13_Synthèse loi MOSC 2 2004 08 13_Synthèse loi MOSC 2004 08 13_Loi de modernisation de la sécurité civile2 2004 08 13_Loi de modernisation de la sécurité civile 1 1999 08 03_Brevet national de cadets de sapeurs-pompiers 2016 03 29_Arrêté portant organisation du CCDSPV 2015 01 20_Membres de la commission nationale de changement de grade des SPV 2014 03 21_Organisation de la commission nationale de changement de grade des SPV 2006 07 19_Circulaire Label partenaire SP 1993 09 28_Circulaire formation et dispo ops SPV fonction publique 2013 03 13_Protection sociale SPV modifications Cookies strictement nécessaires Ces cookies sont indispensables au bon fonctionnement du site web et ne peuvent pas être désactivés de nos systèmes. 
+Ils ne sont activés qu'en réponse à des actions que vous effectuez et qui correspondent à une demande de services, comme la configuration de vos préférences de confidentialité, la connexion ou le remplissage de formulaires. 
+Vous pouvez configurer votre navigateur pour bloquer ou être alerté de l'utilisation de ces cookies. 
+Cependant, si cette catégorie de cookies - qui ne stocke aucune donnée personnelle - est bloquée, certaines parties du site ne pourront pas fonctionner. 
+Les cookies suivants sont installés par wordpress : wordpress_sec_, finalité: Utilisé pour stocker vos informations d'authentification. 
+Son utilisation est limitée à la zone de la console d'administration, /wp-admin/, durée de conservation : session wp-settings-: finalité: Utilisé pour personnaliser votre vue de l'interface d'administration, et éventuellement aussi l'interface principale du site, durée de conservation : session wp-settings-time-1, finalité: Utilisé pour personnaliser votre vue de l'interface d'administration, et éventuellement aussi l'interface principale du site, durée de conservation : session wordpress_logged_in_, finalité: Indique quand vous êtes connecté et qui vous êtes pour la plupart des utilisations de l'interface, durée de conservation : session Les cookies suivants sont installés par woocommerce : woocommerce_items_in_cart, finalité: Aide WooCommerce à déterminer quand le contenu/les données du panier changent, durée de conservation : session wp_woocommerce_session_, finalité: Contient un code unique pour chaque client afin qu'il sache où trouver les données du panier dans la base de données pour chaque client, durée de conservation : 2 jours woocommerce_cart_hash, finalité: Aide WooCommerce à déterminer quand le contenu/les données du panier changent, durée de conservation : session tk_ai, finalité: pour stocker un identifiant d'utilisateur unique, durée de conservation : session
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc529691</DOCNO>
+<DOCID>doc529691</DOCID>
+<TEXT>
+Françoise - L'enlèvement - CPR - Club Photo Rosnéen - Association loi 1901
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc529823</DOCNO>
+<DOCID>doc529823</DOCID>
+<TEXT>
+Résister aujourd’hui - La Vie des idées À propos de : A. Ogien & S. Laugier Pourquoi désobéir en démocratie ?
+, La Découverte. 
+La désobéissance civile prend aujourd’hui de nouvelles formes, notamment face aux pressions qu’impose la modernisation de l’État. 
+L’ouvrage d’A. 
+Ogien et de S. Laugier décrit avec précision cette résurgence d’une démocratie radicale qui dénonce les impératifs de l’évaluation ; il reste cependant prisonnier d’une vision trop étroite de ses origines. 
+Recensé : Albert Ogien et Sandra Laugier Pourquoi désobéir en démocratie ?
+, Paris, Editions La Découverte, coll. 
+Textes à l’appui / Philosophie pratique, 2010, 211 p. 
+À la fin des années 1980, avec la chute du mur de Berlin, une parenthèse semblait se fermer, celle de la bipolarisation du monde pendant la guerre froide, mais aussi celle qui avait donné naissance à ce que Claus Offe avait appelé les Nouveaux Mouvements sociaux issus des combats pour les droits civiques, des manifestations contre la guerre du Vietnam ou la guerre d’Algérie, contre l’apartheid, la dissémination nucléaire, aussi bien militaire que civile, mais encore contre les discriminations de genre et d’orientation sexuelle. 
+Non seulement une nouvelle ère géopolitique semblait naître, mais également une nouvelle économie du travail qui allait remettre en cause le consensus social soutenu par le modèle fordiste des économies occidentales. 
+Du fait de ces profondes transformations politiques, sociales et culturelles, il semble que l’ère des grandes causes se soit refermée comme le notent les auteurs de Pourquoi désobéir en démocratie ?
+, Albert Ogien et Sandra Laugier : la désobéissance civile ne jouit plus aujourd’hui de cette légitimité reconnue, acquise au cours du XXe siècle à force de marches pacifiques et de sit-in, intégrés au sein de mouvements massifs conduits par des leaders charismatiques, que ce soit en Inde, aux États-Unis ou en Afrique du Sud. 
+Remettant en cause un tel constat, les auteurs de l’ouvrage étudient les nouvelles formes de désobéissance civile, en adoptant une double démarche, philosophique et sociologique, qui a le mérite de sortir cette pratique des caractéristiques héroïques que l’on a tendance à lui attribuer, et de la resituer dans le cadre ordinaire du fonctionnement d’une démocratie. 
+De fait le présupposé des auteurs est que la démocratie n’est pas tant la compétition pour la détention du pouvoir, ni même la participation à l’élection cyclique des représentants, que la manière dont on pose notre voix au sein du dispositif de réorganisation du travail, de l’éducation, de la santé et de la recherche. 
+La mésentente Plutôt que de s’intéresser au statut des énoncés éthiques, objectifs ou subjectifs, ou encore à la caractérisation de l’ontologie sociale correspondante, les auteurs prêtent une attention particulière à l’incommensurabilité entre deux types de langages, celui dit de la modernisation des structures d’État qui touchent depuis les années 1990 les différents secteurs cités précédemment et qui demandent une rationalisation des administrations dites bureaucratiques, et celui de la description personnelle de l’expérience au travail. 
+Les auteurs notent ainsi que la plupart des agents chargés de la modernisation de l’État sont pris dans une sorte de logique dans laquelle les mots perdent leur signification courante pour acquérir un contenu idéologique à travers lequel les acteurs ne reconnaissent pas leurs propres pratiques et valeurs. 
+Ainsi en est-il de tous ces termes mis à la mode comme ceux de qualité, d’autonomie, d’équité : à première vue, qui refuserait de vouloir appliquer tous ces termes au travail ? 
+La tragédie vient précisément de ce que ces termes ne semblent plus recouvrir les significations communes qu’on leur attribue habituellement. 
+Si l’accent est posé sur le langage, mais aussi sur la voix dans les processus de décision, c’est parce que tous deux, langage et voix, sont au cœur de la désobéissance civile, celle-ci étant une façon de contester non pas nécessairement la privation de parole au moment d’une transformation des habitudes acquises au travail ou à l’école mais le défaut de reconnaissance dans l’exécution des tâches demandées (p. 38) : « la question de la désobéissance ne concerne donc pas seulement ceux qui ne parlent pas, ceux qui, pour des raisons structurelles ne peuvent pas parler, ceux qui sont définitivement exclus de la conversation de la justice, mais également ceux qui pourraient parler mais se heurtent à l’inadéquation de leur parole ». 
+Ceci rejoint une idée forte dans la théorie contemporaine de la démocratie, déjà mise en lumière par ceux qui renouvelèrent la philosophie politique française ces trente dernières années, Jean-François Lyotard avec Le différend (1984) et Jacques Rancière avec La mésentente (1995), et qui voient dans les conflits de langage une explication importante de la grammaire des nouvelles formes de contestations sociales. 
+Cette « expérience de la dépossession » (p. 89), autrement dit de l’impossibilité de se reconnaître dans la tâche accomplie, est directement produite par l’application depuis une vingtaine d’années des nouvelles logiques de gouvernement mises en œuvre dans l’administration publique, au sein desquelles les procédures de quantification prennent une place croissante. 
+La désobéissance au cœur de ces administrations a lieu sur trois fronts ouverts par la notion même de résultat proposée par cette nouvelle culture managériale (p. 70) : 1) la transparence, 
+2) la mesure précise de l’activité évaluée, 
+3) l’exigence de rentabilité. 
+C’est en fonction de ces trois usages du terme « résultat » que la désobéissance se met en place. 
+Elle consiste essentiellement à refuser d’être pris pour cible au sein d’un discours biaisé sur la transparence accusant les services publics du soi-disant retard de la France en termes de modernisation, c’est-à-dire d’adaptation aux lois du marché et donc de flexibilisation accrue. 
+Ce serait en effet sous couvert d’une transparence des administrations publiques que l’on demanderait aux différents services d’accepter que leur « production » soit mesurée, quantifiée et évaluée en fonction de critères exogènes empruntés à la production industrielle ou au secteur privé en général, en vue d’améliorer un taux de rentabilité qui n’a peut être même pas de sens dans le secteur ayant trait au service public. 
+Si l’on considère que cette nouvelle politique de l’État envers ses administrations publiques tend à passer d’une logique des moyens à une logique des résultats (p. 73), alors toute action de désobéissance civile dans ce cadre consisterait a minima à compléter une culture des résultats avec une culture des moyens, contre leur mutuelle substitution. 
+Mais selon les auteurs cette explication est loin d’être satisfaisante. 
+Ils suggèrent ainsi qu’il y a dans la désobéissance civile une critique bien plus forte du système d’évaluation de performance des administrations publiques dédiées aux services ayant en charge la réalisation d’une certaine idée de la justice sociale. 
+En s’opposant à la culture du résultat telle qu’elle est actuellement mise en place, les agents de l’État ne mettent pas seulement en cause le manque de moyens pour appliquer les nouvelles règlementations, ils dénoncent l’injustice sociale de tels dispositifs. 
+Bien que l’aspect normatif de la désobéissance au sein des institutions publiques ne soient pas mis en évidence aussi clairement dans l’ouvrage, on peut essayer ici de retracer ce qui permet de classer les actes de résistance des agents publics à la politique de modernisation de l’État comme étant de la désobéissance civile, c’est-à-dire des actes de résistance à une mesure ou une loi injuste ou menaçant l’intérêt général, et non des actes de sabotage émis par des agents soucieux de préserver leurs privilèges ou inquiets de perdre le confort d’une routine savamment entretenue. 
+Désobéissance civile, intérêt général et vulnérabilité Pour comprendre donc en quoi ces actions constituent effectivement des actes de désobéissance civile, il faut voir avant tout comment les procédures de modernisation telles qu’elles sont proposées dans les réglementations touchant les institutions publiques (l’école, l’université, les hôpitaux, etc.) constitue une limitation, voir un déni réel de droits fondamentaux. 
+Cet aspect n’est pas mis en avant par l’ouvrage lui-même qui semble parfois préférer une justification de la désobéissance civile reposant sur la psychologie des acteurs sociaux : ce serait alors le déficit motivationnel qui viendrait rendre raison du scepticisme vis-à-vis des nouvelles méthodes d’organisation du travail décrites comme exerçant une « violence arithmétique » (p. 141). 
+Sans toutefois négliger ce point motivationnel, il aurait été pourtant intéressant de voir comment les actes de désobéissance civile au sein des administrations publiques peuvent être ramenés à une théorie plus vaste de l’injustice sociale. 
+Pour ce faire, il était possible de convier la théorie des capabilités énoncée d’abord par Amartya Sen puis réélaborée par Martha Nussbaum, pour rendre compte de cette articulation entre préservation de son intégrité personnelle et promotion de l’intérêt général entendu comme bien commun dans une conception républicaine de la démocratie. 
+Les capabilités, en effet, ne renvoient pas du tout aux capacités telles que l’on pouvait l’entendre dans le cadre d’une conception censitaire de la démocratie selon laquelle le vote dépendrait de la liberté comme capacité au sens où l’entendait le libéralisme politique du XIXe siècle, à savoir les facultés de discernement liées á un certain statut social. 
+Bien au contraire la théorie des capabilités a un double but : sortir de l’intellectualisme des conceptions de la liberté et de la justice, éviter la tentation de l’utilitarisme, et répondre au déficit pragmatique du transcendantalisme institutionnel pensé par Rawls dans sa Théorie de la justice. 
+Cette théorie des capabilités permet de comprendre parfaite
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc529946</DOCNO>
+<DOCID>doc529946</DOCID>
+<TEXT>
+Paiste Symphonic Gong on Floor "C" Stand with Mallet Combos - Gongs Unlimited   Paiste Symphonic Gong on Floor "C" Stand with Mallet Combos Sold Out - Check back soon or enter your email and we will contact you when we get a new shipment: Traditional (With Logo) / 20" Traditional (With Logo) / 22" Traditional (With Logo) / 24" Traditional (With Logo) / 26" Traditional (With Logo) / 28" Traditional (With Logo) / 30" Traditional (With Logo) / 32" Traditional (With Logo) / 34" Traditional (With Logo) / 36" Traditional (With Logo) / 38" No Logo / 20" No Logo / 22" No Logo / 24" No Logo / 26" No Logo / 28" No Logo / 30" No Logo / 32" No Logo / 34" No Logo / 36" No Logo / 38" Tai Loi / 20" Tai Loi / 22" Tai Loi / 24" Tai Loi / 26" Tai Loi / 28" Tai Loi / 30" Tai Loi / 32" Tai Loi / 34" Tai Loi / 36" Tai Loi / 38" Brilliant / 20" Brilliant / 22" Brilliant / 24" Brilliant / 26" Brilliant / 28" Brilliant / 30" Brilliant / 32" Brilliant / 34" Brilliant / 36" Brilliant / 38" Qty Add to Cart Add to Wishlist Your wishlist has been temporarily saved. 
+Please Log in to save it permanently. 
+These combos include the gong, stand, mallet, and gong bag. 
+Note: The video below is just an example of your selected size and style of gong, not the exact, specific gong you will receive. 
+If the gong in the video has a logo but you've selected no logo, don't worry. 
+You will receive whatever style you've selected: logo, no logo, Tai Loi, brilliant. 
+The Paiste Symphonic Gong Combo with the Floor "C" Stand is perfect for players who like to play low to the ground or who, like Cookie Monster, love the letter C. So if you prefer sitting or kneeling or squatting next to your gong, munching on cookies and creating cleansing crashes for crystal clear chakras, this is the combo for you! 
+Made from forged iron, the Paiste Floor Gong Stand is nice and heavy. 
+Because of the weight of the iron, the feet do not have to be as large to support this gong stand. 
+The Paiste Stand will not blow away. 
+The Paiste Symphonic Gong is a remarkable gong. 
+Its complex overtones and musicality bring up tremendous delight and joy! 
+While these gongs are called "symphonic" gongs this is not meant to imply merely symphonic orchestras, but goes deeper to the root of the word meaning to unite harmonic sounds and to experience sound in its entirety. 
+The 20" Paiste Symphonic Gong on Floor Stand Combo: Gong Diameter: 20" Mallet: M1 Paiste Floor Stand: For 20" Gongs Gong Bag for 20" Gongs Gong Stand Measurements: Length (across the "C"): 24" Height: 30" Depth of Feet: 10" The Paiste Symphonic Gong Combo with the Floor "C" Stand is perfect for players who like to play low to the ground or who, like Cookie Monster, love the letter C. So if you prefer sitting or kneeling or squatting next to your gong, munching on cookies and creating cleansing crashes for crystal clear chakras, this is the combo for you! Made from forged iron, the Paiste Floor Gong Stand is nice and heavy. Because of the weight of the iron, the feet do not have to be as large to support this gong stand. The Paiste Stand will not blow away. The Paiste Symphonic Gong is a remarkable gong. Its complex overtones and musicality bring up tremendous delight and joy! While these gongs are called "symphonic" gongs this is not meant to imply merely symphonic orchestras, but goes deeper to the root of the word meaning to unite harmonic sounds and to experience sound in its entirety. Paiste produces its Symphonic Gongs without logos (or No Logo as they are sometimes called) for gong specialists like Kundalini Yogis or Sound Healers who may not want the Paiste name on the front of the gong as they play as they are working to create a space of meditation or spiritual experience. The 20" Paiste No Logo Symphonic Gong on Floor Stand Combo: Gong Diameter: 20" Mallet: M1 Paiste Floor Stand: For 20" Gongs Gong Bag for 20" Gongs Gong Stand Measurements: Length (across the "C"): 24" Height: 30" Depth of Feet: 10" The Paiste Symphonic Gong Combo with the Floor "C" Stand is perfect for players who like to play low to the ground or who, like Cookie Monster, love the letter C. So if you prefer sitting or kneeling or squatting next to your gong, munching on cookies and creating cleansing crashes for crystal clear chakras, this is the combo for you! 
+Made from forged iron, the Paiste Floor Gong Stand is nice and heavy. 
+Because of the weight of the iron, the feet do not have to be as large to support this gong stand. 
+The Paiste Stand will not blow away. 
+The Paiste Symphonic Gong is a remarkable gong. 
+Its complex overtones and musicality bring up tremendous delight and joy! 
+While these gongs are called "symphonic" gongs this is not meant to imply merely symphonic orchestras, but goes deeper to the root of the word meaning to unite harmonic sounds and to experience sound in its entirety. 
+The traditional Chinese Tai Loi Symbols, can be translated to English as "The Bad will depart, the Good shall arrive" or more simply, "Happiness Has Arrived." 
+Paiste still makes these, but does not produce as many of symphonic gongs with Tai Loi symbols on them now. 
+Their availability varies. 
+It is best to contact us to see about the size you would want. 
+The 20" Paiste Tai Loi Symphonic Gong on Floor Stand Combo: Gong Diameter: 20" Mallet: M1 Paiste Floor Stand: For 20" Gongs Gong Bag for 20" Gongs Gong Stand Measurements: Length (across the "C"): 24" Height: 30" Depth of Feet: 10" The Paiste Symphonic Gong Combo with the Floor "C" Stand is perfect for players who like to play low to the ground or who, like Cookie Monster, love the letter C. So if you prefer sitting or kneeling or squatting next to your gong, munching on cookies and creating cleansing crashes for crystal clear chakras, this is the combo for you! Made from forged iron, the Paiste Floor Gong Stand is nice and heavy. Because of the weight of the iron, the feet do not have to be as large to support this gong stand. The Paiste Stand will not blow away. The Paiste Symphonic Gong is a remarkable gong. Its complex overtones and musicality bring up tremendous delight and joy! While these gongs are called "symphonic" gongs this is not meant to imply merely symphonic orchestras, but goes deeper to the root of the word meaning to unite harmonic sounds and to experience sound in its entirety. The 22” Paiste Symphonic Gong on Floor Stand Combo: Gong Diameter: 22” Mallet: M2 Paiste Floor Stand: For 22” Gongs Gong Bag for 22" Gongs Gong Stand Measurements: Length (across the "C"): 24" Height: 30" Depth of Feet: 10" The Paiste Symphonic Gong Combo with the Floor "C" Stand is perfect for players who like to play low to the ground or who, like Cookie Monster, love the letter C. So if you prefer sitting or kneeling or squatting next to your gong, munching on cookies and creating cleansing crashes for crystal clear chakras, this is the combo for you! Made from forged iron, the Paiste Floor Gong Stand is nice and heavy. Because of the weight of the iron, the feet do not have to be as large to support this gong stand. The Paiste Stand will not blow away. The Paiste Symphonic Gong is a remarkable gong. Its complex overtones and musicality bring up tremendous delight and joy! While these gongs are called "symphonic" gongs this is not meant to imply merely symphonic orchestras, but goes deeper to the root of the word meaning to unite harmonic sounds and to experience sound in its entirety. Paiste produces its Symphonic Gongs without logos (or No Logo as they are sometimes called) for gong specialists like Kundalini Yogis or Sound Healers who may not want the Paiste name on the front of the gong as they play as they are working to create a space of meditation or spiritual experience. The 22” Paiste No Logo Symphonic Gong on Floor Stand Combo: Gong Diameter: 22" Mallet: M2 Paiste Floor Stand: For 22” Gongs Gong Bag for 22" Gongs Gong Stand Measurements: Length (across the "C"): 24" Height: 30" Depth of Feet: 10" The Paiste Symphonic Gong Combo with the Floor "C" Stand is perfect for players who like to play low to the ground or who, like Cookie Monster, love the letter C. So if you prefer sitting or kneeling or squatting next to your gong, munching on cookies and creating cleansing crashes for crystal clear chakras, this is the combo for you! 
+Made from forged iron, the Paiste Floor Gong Stand is nice and heavy. 
+Because of the weight of the iron, the feet do not have to be as large to support this gong stand. 
+The Paiste Stand will not blow away. 
+The Paiste Symphonic Gong is a remarkable gong. 
+Its complex overtones and musicality bring up tremendous delight and joy! 
+While these gongs are called "symphonic" gongs this is not meant to imply merely symphonic orchestras, but goes deeper to the root of the word meaning to unite harmonic sounds and to experience sound in its entirety. 
+The traditional Chinese Tai Loi Symbols, can be translated to English as "The Bad will depart, the Good shall arrive" or more simply, "Happiness Has Arrived." 
+Paiste still makes these, but does not produce as many of symphonic gongs with Tai Loi symbols on them now. 
+Their availability varies. 
+It is best to contact us to see about the size you would want. 
+The 22” Paiste Tai Loi Symphonic Gong on Floor Stand Combo: Gong Diameter: 22” Mallet: M2 Paiste Floor Stand: For 22” Gongs Gong Bag for 22" Gongs Gong Stand Measurements: Length (across the "C"): 24" Height: 30" Depth of Feet: 10" The Paiste Symphonic Gong Combo with the Floor "C" Stand is perfect for players who like to play low to the ground or who, like Cookie Monster, love the letter C. So if you prefer sitting or kneeling or squatting next to your gong, munching on cookies and creating cleansing crashes for crystal clear chakras, this is the combo for you! 
+Made from forged iron, the Paiste Floor Gong Stand is nice and heavy. 
+Because of the weight of the iron, the feet do not have to be as large to support this gong stand. 
+The Paiste Stand will not blow away. 
+The Paiste Symphonic Gong is a rema
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc530166</DOCNO>
+<DOCID>doc530166</DOCID>
+<TEXT>
+Validité du prononcé du divorce subordonné à la constitution d’une garantie par l’époux débiteur d’une prestation compensatoire en capital | BUCHER AVOCAT (Eurojuris) Ouvrir le menu Menu Publié le : 19/08/2016 19 août août 08 2016 Particuliers / Famille / Divorces Source : www.eurojuris.fr Consacrant la liberté de mettre fin aux liens du mariage, le Conseil constitutionnel juge que la subordination du prononcé du divorce à la constitution d'une garantie par l'époux débiteur d'une prestation compensatoire en capital n'y porte pas atteinte.Le Conseil constitutionnel a été saisi le 25 mai 2016 par la Cour de cassation d'une question... 
+Lire la suite Historique Le divorce sans juge Publié le : 18/01/2018 18 janvier janv. 
+01 2018 Particuliers / Famille / Divorces Depuis le 1er janvier 2017 il est possible de faire un divorce sans passer pa... 
+Source : www.eurojuris.fr Lire la suite Divorce sans juge: quel coût? 
+Publié le : 15/02/2017 15 février févr. 
+02 2017 Particuliers / Famille / Divorces Depuis le 1er janvier 2017, les époux souhaitant divorcer par consentement mu... 
+Source : www.eurojuris.fr Lire la suite Le divorce sans juge Publié le : 04/01/2017 04 janvier janv. 
+01 2017 Particuliers / Famille / Divorces La loi de modernisation de la justice du XXIe siècle parue au Journal officie... 
+Source : www.eurojuris.fr Lire la suite Simplification et modernisation du droit de la famille Publié le : 26/02/2016 26 février févr. 
+02 2016 Particuliers / Famille / Divorces Le décret n° 2016-185 du 23 février 2016 pris pour l'application de l'ordonna... 
+Source : www.eurojuris.fr Lire la suite Par une décision du 17 janvier 2020, la chambre de discipline du Conseil national de l’ordre des pharmaciens avait prononcé à l’encontre d’un laboratoire de biologie médicale, la sanction de l’interdiction de pratiquer des examens de biologie médicale pendant une durée de 15 jours. 
+Il était reproché l’existence de quatre publications favorabl... 
+Lire la suite BUCHER AVOCAT 9 rue de la Paix BP 20122 57201 SARREGUEMINES Tél : 03 87 98 25 18 - Fax : 03 87 98 08 71
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc530594</DOCNO>
+<DOCID>doc530594</DOCID>
+<TEXT>
+Celles [Cantal] : Naissances/baptêmes ﻿ Naissances / baptêmes Copyright © Aprogemere 2010-2020 - Tous droits réservés Association loi 1901 no W151000538 ExpoActes version 3.2.2-prod (© 2005-2015, ADSoft)
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc531303</DOCNO>
+<DOCID>doc531303</DOCID>
+<TEXT>
+Results list of Browse by country - NATLEX Montrer le résumé/citation: Trié par: Sujet: Liberté syndicale, négociation collective et relations professionnelles Afghanistan - Liberté syndicale, négociation collective et relations professionnelles - Loi Regulates the establishment and functioning of NGO's in Afghanistan. 
+Repeals the Regulation on the Activities of Domestic and Foreign Non-Governmental Organizations (NGOs) in Afghanistan, published in the official gazette Number 792, in the Year 1421. 
+Afghanistan - Liberté syndicale, négociation collective et relations professionnelles - Loi Adoption: 2003-01 | AFG-2003-L-86579 Provides, inter alia, that citizens have the right to hold gatherings, strikes, and demonstrations without the bearings of weapons for the realization of their peaceful and lawful goals that are not contrary to national unity and the provisions of the Constitution. 
+Sets out the obligations of the various parties with respect to strikes, gatherings and demonstrations. 
+Afghanistan - Liberté syndicale, négociation collective et relations professionnelles - Règlement, Décret, Arrêté, Ordonnance Adoption: 2002-01-27 | AFG-2002-R-85503 Approves the Law on Social Organizations. 
+Establishes a department within the Ministry of Justice the purpose of which is to coordinate the application processing, statutes, and registration of Social Organizations. 
+Afghanistan - Liberté syndicale, négociation collective et relations professionnelles - Loi Repeals the Law on Social Organization published in issue number 714 of the Official Gazette, dated April 19, 1990. 
+Chapter 1 - General Provisions Chapter 2 - Establishment and Operation of Social Organizations Chapter 3 - Dissolution and Termination of Activities of Social Organizations Chapter 4 - Miscellaneous Provisions Adoption: 2018-11-23 | ZAF-2018-L-108807 To amend the Labour Relations Act, 1995, so as to provide criteria for the Minister before the Minister is compelled to extend the collective agreement as contemplated in the Act; to provide for the renewal and extension of funding agreements; to provide for picketing by collective agreement or by determination by the Commission in terms of picketing regulations; to provide for the classification of a ratified or determined minimum service; to extend the meaning of ballot to include any voting by members that is recorded in secret; to provide for the independence of the registrar and the deputy registrar; to provide for an advisory arbitration panel; to provide for an advisory arbitration award; to provide for transitional provisions; and to provide for matters connected therewith. 
+Afrique du Sud - Liberté syndicale, négociation collective et relations professionnelles - Loi To amend the Basic Conditions of Employment Act, 1997, so as to substitute and insert certain definitions; to provide for daily wage payments applicable to certain employees; to repeal certain provisions dealing with sectoral determinations and to disestablish the Employment Conditions Commission; to extend the jurisdiction of the Commission for Conciliation, Mediation and Arbitration; to extend the provisions for monitoring and enforcement by the labour inspector; to include enforcement of the provisions of the National Minimum Wage Act, 2018, the Unemployment Insurance Act, 2001 and the Unemployment Insurance Contributions Act, 2002; to provide for claims for underpayment; to provide for transitional arrangements; to regulate sectoral determinations currently in force; to strengthen collective bargaining in respect of the sectors regulated by those sectoral determinations; and to provide for matters connected therewith. 
+Adoption: 2014-08-15 | Date d'entrée en vigueur: 2015-01-01 | ZAF-2014-L-94542 To amend the Labour Relations Act, 1995, so as to facilitate the granting of organisational rights to trade unions that are sufficiently representative; to strengthen the status of picketing rules and agreements; to amend the operation, functions and composition of the essential services committee and to provide for minimum service determinations; to provide for the Labour Court to order that a suitable person be appointed to administer a trade union or employers' organisation; to enable judges of the Labour Court to serve as a judge on the Labour Appeal Court; to further regulate enquiries by arbitrators; to provide greater protection for workers placed in temporary employment services; to regulate the employment of fixed term contracts and part-time employees earning below the earnings threshold determined by the Minister; to further specify the liability for employer's obligations; and to substitute certain definitions; and to provide for matters connected therewith. 
+Afrique du Sud - Liberté syndicale, négociation collective et relations professionnelles - Règlement, Décret, Arrêté, Ordonnance Adoption: 2007-02-09 | ZAF-2007-R-75683 Substitutes pages 275, 276 and 277 concerning CCMA contacts with new contacts. 
+Adoption: 2003-10-10 | ZAF-2003-R-75682 Part 1 - Serving and filing of documents Part 2 - Conciliation of disputes Part 3 - Con-arb in terms of section 191 (5A) Part 4 - Arbitrations Part 5 - Rules that apply to conciliations and arbitrations and con-arbs Part 6 - Applications Part 7 - Pre-dismissal arbitration in terms of section 188A Part 8 - General Adoption: 2002-06-24 | ZAF-2002-L-62422 Amends Labour Relations Act 1995. 
+Provides for the following matters: enforcement of collective bargaining agreements; extension of functions of bargaining councils so as to enhance effective enforcement of bargaining council agreements; rationalisation of registration and amalgamation of bargaining councils in public service; extension of information that bargaining councils must supply to registrar; extension of powers of Commission to make rules concerning procedures; making of regulations by Minister concerning representation at Commission; making of settlement agreements into arbitration awards or Labour Court orders; exclusion of application of Arbitration Act 1965 to bargaining council arbitration; concurrent appointment of Labour Court Judges as High Court Judges; regulation of right of employees not to be subjected to unfair labour practices; regulation of resolution of disputes concerning occupational detriment in terms of Protected Disclosures Act 2000; clarification and revision of procedures for resolving disputes in respect of dismissals based on employer's operational requirements; expediting of resolution of disputes by Commission by conciliation or arbitration; clarification of transfer of contracts of employment in the case of transfers of business, trade or undertaking as a going concern, rebuttable presumption as to who is an employee, as well as some related matters. 
+Afrique du Sud - Liberté syndicale, négociation collective et relations professionnelles - Autres textes (circulaire, directive, instruction, etc.) Adoption: 2002 | ZAF-2002-M-64787 Contains guidelines issued by the Minister of Labour that are to be applied by Registrar of Labour Relations in determining whether an applicant for registration in terms of Labour Relations Act is a genuine trade union or a genuine employers' organisation. 
+Deals with the following matters: definition of trade union; formation of trade union; qualification for membership of trade union; membership of trade union; activities of trade union; independence from employers; association of employers; association not for gain; and federation affiliations. 
+Afrique du Sud - Liberté syndicale, négociation collective et relations professionnelles - Loi Adoption: 2000-06-07 | ZAF-2000-L-56733 Amends the Nonprofit Organisations Act, 1997, to alter the procedure of preparing and issuing model documents and codes of good practice, and to effect certain textual changes. 
+Afrique du Sud - Liberté syndicale, négociation collective et relations professionnelles - Règlement, Décret, Arrêté, Ordonnance Applies to all heads of public schools, colleges of education, technical and other colleges, further education and training institutions, adult basic education and training centres, early childhood development centres, and to all office based educators. 
+Regulates responsibilities of managers, procedure to be followed by managers prior to strike action, and procedure during strike action. 
+Afrique du Sud - Liberté syndicale, négociation collective et relations professionnelles - Règlement, Décret, Arrêté, Ordonnance Made under Labour Relations Act, 1995. 
+Regulates procedure for resolving disputes through conciliation and arbitration proceedings. 
+Inter alia provides for filing of documents, conciliation procedure, arbitration procedure, witness fees, costs, subpoenas and representation at proceedings. 
+Adoption: 1998-11-20 | Date d'entrée en vigueur: 1999-02-01 | ZAF-1998-L-51677 Amends the Labour Relations Act, 1995 to make pension, provident or medical aid schemes or funds established by a council or statutory council subject to laws applicable to such funds, and to continue such funds in the event of the winding up of the council or statutory council which established them; and to adjust the requirements for extending to non-parties coverage by any collective agreement concluded in a bargaining council. 
+Authorizes a commissioner to consolidate various conciliation proceedings between the same parties involved in two or more disputes, and imposes a time limit on the referral of a matter to arbitration or to the Labour Court. 
+Other amendments regard administrative matters and the competencies of the Labour Minister and the Commission for Conciliation, Mediation and Arbitration. 
+Afrique du Sud - Liberté syndicale, négociation collective et relations professionnelles - Loi Provides for a Directorate for Nonprofit Organisations, registration of such organisations, and related matters. 
+Afrique du Sud - Liberté syndicale, négociation collective et relations professionnelles - Autres textes (circulaire, directi
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc531379</DOCNO>
+<DOCID>doc531379</DOCID>
+<TEXT>
+Section socialiste du 10e arrondissement de Paris » Droit du Travail par CC, JFQ et AS – avril 2006 Des éléments de diagnostic Depuis une vingtaine d’années, les évolutions structurelles de l’économie française ont entraîné une forte hausse de la mobilité de l’emploi (Rapport du CERC – Conseil Emploi Revenu Cohésion Sociale n°5). 
+Celle-ci s’explique par deux facteurs : – l’augmentation du poids des services, où l’instabilité est forte, et la baisse corrélative du poids de l’industrie, où l’instabilité est faible. 
+– les changements rapides des modes de production et de gestion, qui contraignent l’employeur soit à former ses employés, soit à les remplacer par une main d’œuvre plus qualifiée. 
+(suite…) 
+La lettre des socialistes du 10e – mai 2006 Les longues semaines de mobilisation ont payé. 
+La droite avait parié sur une jeunesse individualiste, désabusée et pas vraiment informée. 
+Quelle réussite ! 
+Grâce à Villepin et son envie de précariser, on n’avait pas autant discuté, argumenté et mobilisé dans les lycées et les universités depuis de nombreuses années. 
+C’est toute une génération qui a découvert l’action citoyenne, qui a réinventé des moyens d’agir et qui a gagné. 
+Cette victoire a montré que l’unité paie : unité entre les générations, entre les syndicats et au sein de la Gauche. 
+C’est dans cet esprit de rassemblement que les socialistes et la Gauche doivent aborder les échéances qui approchent. 
+jeudi 24 août 2006 par AG – avril 2006 Les femmes représentent à l’heure actuelle 45% de la population active. 
+De fortes disparités perdurent entre l’emploi des hommes et celui des femmes. 
+Certains points sont marquants. 
+Une femme gagne globalement 20% de moins qu’un homme dans le privé et 14% de moins dans la Fonction publique. 
+30% des femmes travaillent à temps partiel contre 5% des hommes, alors que pour un tiers d’entre elles ce temps partiel n’est pas un choix, mais est subi. 
+Elles occupent plus souvent (11% contre 6%) des emplois temporaires (CDD, stages ou les emplois aidés). 
+Elles sont plus nombreuses à se retrouver au chômage : 10,6% des femmes contre 8,8% des hommes. 
+par DA et KB – avril 2006 Eléments de contexte et de chronologie En 2002, la droite n’a pas fait sa campagne sur les thèmes de l’emploi et du travail, sauf en marquant son hostilité aux « 35 heures » suspectées selon elle d’avoir dévalorisé le travail. 
+Cependant, une des premières mesures du gouvernement Raffarin a été la suspension de la loi de modernisation sociale votée en janvier 2002, et en particulier sur ses aspects encadrant la définition et les procédures du licenciement économique. 
+Un délai était laissé aux partenaires sociaux pour négocier sur la notion de licenciement économique (cette négociation a échoué). 
+Dès janvier 2003, Fillon attaque les 35 heures par un large assouplissement de la législation sur les heures supplémentaires. 
+Mai 2004, loi sur le dialogue social et sur la formation professionnelle tout au long de la vie. 
+Malgré (ou à cause de) son peu d’appétence pour les thèmes sociaux en 2002, la droite a imputé ses graves échecs électoraux de 2004, puis de 2005 à ses insuffisances en matière d’emploi : – Nomination de Borloo, caution sociale : plan de cohésion sociale été 2004, puis loi de programmation pour la cohésion sociale en janvier 2005 ; – Gouvernement Villepin à partir de juin 2005, « bataille pour l’emploi », ordonnances de l’été 2005, CPE début 2006. 
+(suite…) 
+Le PS du 10e
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc531456</DOCNO>
+<DOCID>doc531456</DOCID>
+<TEXT>
+Du nouveau pour les investissements défiscalisés - WebLex VOUS N’ÊTES PAS ENCORE INSCRIT Créez un compte pour accéder gratuitement à l’intégralité du contenu CRÉER UN COMPTE Du nouveau pour les investissements défiscalisés Rédigé par l'équipe WebLex. 
+Source : Loi n° 2016-1691 du 9 décembre 2016 relative à la transparence, à la lutte contre la corruption et à la modernisation de la vie économique (article 78) Pour démarcher des clients potentiellement intéressés par des investissements locatifs, il est nécessaire de faire de la publicité. 
+Mais vous ne devez pas le faire n’importe comment. 
+Des règles sont à respecter. 
+La Loi Sapin 2 vient de les préciser… Mentionnez les risques de l’investissement dans vos documents publicitaires ! 
+La Loi Sapin 2 précise que toute publicité relative à une opération d'acquisition de logement destiné à la location et susceptible de bénéficier des dispositions Malraux, Censi-Bouvard et Pinel doit : permettre raisonnablement de comprendre les risques afférents à l'investissement ; comporter une mention indiquant que le non-respect des engagements de location entraîne la perte du bénéfice des incitations fiscales, qui doit : ○ figurer dans une taille de caractères au moins aussi importante que celle utilisée pour indiquer toute autre information relative aux caractéristiques de l'investissement ; ○ s'inscrire dans le corps principal du texte publicitaire. 
+QUELLES CONSéQUENCES POUR VOTRE ENTREPRISE ? 
+Tout manquement à ces dispositions est passible d'une amende dont le montant ne peut excéder 100 000 €. 
+Consultez la fiche 26/07/2021 09/11/2021 Partagez-le avec votre réseau ! 
+POURQUOI CHOISIR WEBLEX UNE ÉQUIPE EXPERTE Des rédacteurs spécialisés dans chaque domaine d'activité. 
+UN CONTENU 100% CERTIFIÉ Tous nos contenus sont datés, sourcés et mis à jour en temps réel. 
++ DE 2000 CONSEILS JURIDIQUES Vous bénéficiez d'informations pratiques et pédagogiques.
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc531748</DOCNO>
+<DOCID>doc531748</DOCID>
+<TEXT>
+'accident logement', 'achat en viager', 'loyer Duflot', 'négocier' in L'expertise immobilière Démarrer GRATUITEMENT L'expertise immobilière 301.3K vues | +1 aujourd'hui Suivre
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc531767</DOCNO>
+<DOCID>doc531767</DOCID>
+<TEXT>
+Sélection d'articles de : http://infosdroits.fr 22 juin 2013 Pas de commentaire Dans la fonction publique, l'article 3 du titre 1 de la Loi 83-634 du 13 juillet 1983 portant droits et obligations des fonctionnaires indique que, sauf dérogation prévue par une disposition législative, l'ensemble des postes et des emplois budgétés ont vocation à être pourvu par des agents fonctionnaires titulaires. 
+De plus, L'administration des... 
+Les agents de la fonction publique territoriale peuvent percevoir, sous certaines conditions d'attribution le versement de la Nouvelle Bonification Indiciaire - NBI. 
+La NBI consiste en l'attribution de points d'indice majorés correspondant à la valeur du point de la fonction publique qui viennent s'ajouter au salaire de l'agent. 
+La Nouvelle Bonification Indiciaire a été instaurée par... 
+L’accident de travail et de trajet – la procédure de ... 
+Dans la fonction publique, un accident peut être reconnu imputable au service s'il survient sur le lieu de travail, pendant les heures de travail et durant les activités professionnelles habituellement exercées par l'agent. 
+Les agents de la fonction publique qui sont victimes d'une maladie ou d'un accident de service ou de trajet imputable au service doivent respecter la procédure pour la... 
+Le droit aux indemnités de chômage pour les agents de la ... - le règlement général annexé à la convention du 6 mai 2011 sur l'allocation d'aide au retour à l'emploi - Convention du 2 septembre 2011 relative à la délégation de la gestion de l'indemnisation du chômage des agents de l'État - Circulaire 2012-1 DGEFP/DGAFP/DGCL/DGOS/Direction du budget du 3 janvier 2012 relative à l'indemnisation du chômage des agents du secteur public - Décret... 
+Le droit syndical dans la fonction publique hospitalière ... 
+Le droit syndical est garanti aux fonctionnaires qui peuvent créer librement des organisations syndicales, y adhérer et y exercer des mandats. 
+Les organisations syndicales peuvent ester en justice, se pourvoir devant les juridictions compétentes contre les actes réglementaires concernant le statut du personnel et contre les décisions individuelles portant atteinte aux intérêts collectifs... 28 juillet 2013 2 commentaires Les praticiens et médecins hospitaliers qui travaillent dans les établissements publics de santé ne sont des fonctionnaires hospitaliers mais disposent du statut d'agents publics. 
+Les praticiens hospitaliers peuvent exercer leurs activité à temps partiel, à temps plein avec un exercice exclusif dans le service public ou à temps plein avec une activité... 
+La procédure disciplinaire et le Conseil de discipline des ... 
+Un agent de la fonction publique qui commet une faute dans l'exercice ou à l'occasion de l'exercice de ses fonctions s'expose à une sanction disciplinaire administrative et, le cas échéant, à des peines prévues par la loi pénale. 
+De plus, en cas de faute grave commise par un agent, qu'il s'agisse d'un manquement à ses obligations professionnelles ou d'une infraction de droit commun, il... 
+Le harcèlement moral ou sexuel dans la fonction publique ... - Arrêt N°08-40144 de la Cour de Cassation du 3 février 2010 sur l'obligation de sécurité et de résultat d'un employeur en cas de violence physique ou morale sur un salarié -... 
+La contestation d’une décision administrative : Le recours ... - Loi 2000-321 du 12 avril 2000 relative aux droits des citoyens dans leurs relations avec les administrations - Décret 2005-222 du 10 mars 2005 relatif à l'expérimentation de l'introduction et de la communication des requêtes et mémoires et de la notification des décisions par voie électronique - Décret 2012-765 du 10 mai 2012 portant expérimentation de la procédure de recours... 
+Le temps de travail des salariés du secteur privé : durée ... - Loi 2015-990 du 6 août 2015 - articles 241 et suivants - pour la croissance, l'activité et l'égalité des chances économiques sur les exceptions au repos dominical et en soirée - Loi 2016-1088 du 8 août 2016 relatif au travail, à la modernisation du dialogue social et à la sécurisation des parcours professionnels - Décret 2016-1551 du 18 novembre 2016 portant diverses mesures...
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc531917</DOCNO>
+<DOCID>doc531917</DOCID>
+<TEXT>
+Loi Lay Floating Bar 24 November 2019 | Koh Phangan Online Magazine Go
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc532014</DOCNO>
+<DOCID>doc532014</DOCID>
+<TEXT>
+Article 37 de la loi n° 2007-309 du 5 mars 2007 relative à la modernisation de la diffusion audiovisuelle et à la télévision du futur - OK Recherche avancée (auteur, réf. de texte ou de décision…) Enews Legipresse Recevez la newsletter et entrez dans le Club Légipresse Valider Valider l'adresse e-mail pour inscription à l'E-news Le club Légipresse Vidéos Forum 2015 - Informer n'est pas un délit Toutes les vidéos Accueil > Article 37 de la loi n° 2007-309 du 5 mars 2007 relative à la modernisation de la diffusion audiovisuelle et à la télévision du futur - ﻿ Annexes / Textes et documents 01/04/2007 Article 37 de la loi n° 2007-309 du 5 mars 2007 relative à la modernisation de la diffusion audiovisuelle et à la télévision du futur Article 37 I. 
+- Après l'article 244 quater R du code général des impôts, il est inséré un article 244 quater S ainsi rédigé : « Art. 244 quater S. - I. 
+- A. - Les entreprises de création de jeux vidéo soumises à l'impôt sur les sociétés ou exonérées en application des articles 44 sexies, 44 sexies A, 44 octies, 44 decies et 44 undecies peuvent bénéficier d'un crédit d'impôt au titre des dépenses exposées en vue de la création de jeux vidéo dont le coût de développement ... 5 mars 2007   1er avril 2007 - Légicom N°37 1431 mots A propos de Légipresse
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc454546</DOCNO>
+<DOCID>doc454546</DOCID>
+<TEXT>
+Gratuit PDF Associations - Constitution, Gestion, Evolution - PDF DESCRIPTION Au-delà de l'action menée pour la cause ou les intérêts à défendre, quiconque s'est impliqué dans la vie associative connaît l'énergie et les compétences qu'il faut déployer pour créer ou faire vivre une association. 
+Entre la convocation des assemblées et l'enregistrement des adhésions, la recherche de financements et la tenue de la comptabilité, le recouvrement des cotisations et l'accomplissement des déclarations fiscales..., les responsables de l'association sont tenus de maîtriser de nombreuses règles juridiques, comptables et fiscales. 
+À l'heure où les pouvoirs publies simplifient et améliorent significativement les avantages fiscaux octroyés aux particuliers comme aux entreprises afin d'encourager les dons, et où les associations développent une activité commerciale, les responsables associatifs trouveront dans ce guide toutes les informations utiles à la gestion de leur structure: présentation du dossier de demande de subvention, conséquences de l'obligation de transparence imposée à certaines associations, etc. 
+D'importants développements sont consacrés au fonctionnement de l'association, à son évolution et aux difficultés. 
+quelle que soit leur nature, qu'elle risque de rencontrer, ainsi qu'au droit communautaire et au droit de la concurrence. 
+A jour des derniers textes législatifs et réglementaires, notamment de la loi de modernisation de l'économie du 4 août 2008 15 avec la création (les tonds de dotation) et l'ordonnance du 18 décembre 2008 (concernant les associations en difficulté), l'auteur, prenant en compte. 
+le caractère essentiellement contractuel de l'association, donne les indispensables conseils pour décider, niais aussi les outils pour agir : statuts types commentés, modèles de règlement intérieur ou de convocations aux assemblées... 
+Livre: Associations: Constitution -Gestion -Evolution ... 
+Associations : Constitution, Gestion, Evolution: Constitution . 
+Gestion . 
+Évolution (Encyclopédie Delmas) Gestion . 
+Évolution (Encyclopédie Delmas) Au-delà de l'action menée pour la cause ou les intérêts à défendre, quiconque s'est impliqué dans la vie associative connaît l'énergie et les compétences qu'il faut déployer pour créer ou faire vivre une association. 
+TÉLÉCHARGER TAILLE DU FICHIER: 5,50 MB AUTEUR: Francis Lemeunier DATE DE PUBLICATION: 2009-Mar-11 PDF Complet Associations- Constitution, Gestion, Evolution Ciel Associations Evolution vous permet de gérer vos adhérents, cotisations, activités, matériels ainsi que les services à la personne et les activités récurrentes. 
+Associations de toutes tailles et de tous types: culturelles, sportives, sociales. 
+LIVRES CONNEXES
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc532782</DOCNO>
+<DOCID>doc532782</DOCID>
+<TEXT>
+Bureau du coroner Bureau du coroner Le Bureau du coroner du Yukon est au service des vivants en effectuant des investigations et des enquêtes sur les décès.  
+Le coroner en chef dirige les coroners nommés en région ainsi que le Bureau du coroner du Yukon à Whitehorse. 
+Même si la Loi sur les coroners a modernisé le libellé et les procédures de la réglementation encadrant le travail des coroners, leurs fonctions ont très peu changées depuis la création de la loi en 1887. 
+Notre objectif Le Bureau du coroner enquête et présente des rapports sur les décès non naturels ou inattendus au Yukon. 
+Son objectif est de répondre à cinq questions élémentaires : Qui était la personne décédée? 
+Où a eu lieu le décès? 
+Quand a eu lieu le décès? 
+Quelles sont les causes médicales du décès? 
+Quelles sont les circonstances du décès? 
+Les coroners utilisent les résultats de leurs enquêtes pour améliorer la sécurité publique et prévenir d’autres décès de même nature. 
+Nos principes directeurs Notre travail vise à établir les faits, et non à trouver les coupables. 
+Nous sommes indépendants du gouvernement, des autorités de la santé et des forces policières. 
+Nous servons le défunt et les parents et amis du défunt, et la société dans son ensemble. 
+Nous parlons pour les défunts afin de protéger les vivants. 
+Nous voulons connaître votre opinion
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc533130</DOCNO>
+<DOCID>doc533130</DOCID>
+<TEXT>
+Leafly Announces Certified Lab Program to Increase Access to Good Data and Validated Products - Cannabis Business Times Anchalee | Adobe Stock Leafly Announces Certified Lab Program to Increase Access to Good Data and Validated Products Cherry-picked potencies and inconsistent lab results have long drawn attention to the need for reliable standards in third-party testing. 
+Leafly's new Certified Lab Program hopes to be a platform for consistent data and better consumer outcomes. 
+SEATTLE--( BUSINESS WIRE ) PRESS RELEASE-- Leafly , one of the world's most recognized online cannabis resources, today announced the  Leafly Certified Labs Program , a network of labs independently assessed by Leafly for accuracy and quality. 
+Designed to combat  inconsistency in cannabis testing , the Leafly Certified Labs Program helps ensure that cannabis lab data on Leafly comes from labs that have been confirmed to provide results that consumers can trust. 
+The founding Leafly Certified Lab members are  Anandia  in Canada,  CannTest  in Alaska,  ChemHistory  in Oregon,  Confidence Analytics  in Washington,  Modern Canna  in Florida,  PSI Labs  in Michigan, and  SC Labs  in California. 
+“People deserve accurate information about cannabis products so they can have confidence in the products they purchase and in their experience. Unfortunately, not all cannabis labs operate with the same level of rigor, and no one is really looking at the data they produce in a systematic way. Leafly’s own reporting and internal analysis indicate some labs inflate their results, a deceptive practice that must end,” said Nick Jikomes, Leafly’s principal research scientist. 
+“The Leafly Certified Labs Program is our way of independently verifying that the information we provide is trustworthy and sound, and gives cannabis brands the opportunity to work with Leafly and our Certified Labs to bring consumers information they can count on.” 
+So far, seven labs have joined the Certified Labs Program as founding members with a shared commitment to providing accurate and trustworthy product data to consumers. 
+“As Canada’s largest dedicated cannabis analytical testing laboratory, Anandia is proud to be a first mover in this initiative to independently verify the quality and chemistry of cannabis product. Our partnership with Leafly will not only provide our clients with accurate testing results, it will also enable them to communicate better with consumers about the differentiating elements of their products.” - John Coleman, President,  Anandia , Vancouver, British Columbia “A large part of CannTest’s mission is to empower consumers with accurate and reliable information. Leafly’s partnership with CannTest, and other reliable labs nationwide, provides a way to get more scientifically backed information to consumers. This resource should prove a valuable tool for increasing knowledge and trust across our industry.” - Dr. 
+Jonathan Rupp Strong, Scientific Director,  CannTest , Alaska “ChemHistory is grateful to participate in this much needed movement towards transparency and accuracy amongst cannabis testing laboratories. Trust is everything to consumers and earning that trust is an honor. We thank Leafly for their leadership in creating this program.” - Alex Hoggan, CEO,  ChemHistory , Oregon “Leafly’s considerable reach and influence would be nothing without their ability to adapt to new information in the rapidly evolving science of cannabis. The problem-solving and critical thinking skills displayed by their teams is what keeps Leafly at the cutting edge of cannabis product classification. We are beginning a new era in herbal medical science, and Leafly operates at an important junction between information and consumer awareness.” - Nick Mosely M.S., CEO,  Confidence Analytics , Washington “Analytical reports should always be verifiable, reproducible, and legally defensible, yet some laboratories operating in the cannabis space continue to falsify data and refuse to show any form of validation. This program encourages transparency and integrity by providing a platform, supported by quality data, intended to help educate and reassure consumers.” - George Fernandez, CEO,  Modern Canna , Florida “PSI Labs is excited to join the Leafly Certified Lab program, contributing our data to help promote scientific integrity and knowledge transfer nationwide. PSI Labs has set benchmarks for quality control, transparency and scientific integrity in the Michigan cannabis industry. We are confident that our partnership with Leafly will promote accountability and transparency in the testing industry while also improving consumer access to high quality scientific data and our collective knowledge of cannabis chemistry.” - Benjamin J. Rosman, JD, CEO and Co-Founder,  PSI Labs , Michigan “We’ve entered a phase in our relationship with cannabis that is driven by data instead of anecdote or hearsay. It is among SC Labs’ core values to provide reliable and transparent data so that the cannabis supply-chain can make more deliberate and informed choices from safe and consistent products—a philosophy that aligns perfectly with our partnership with Leafly. Leafly has done an amazing job to take this a step further by interpreting that data with a visual language that advances our perception of quality, flavor, and effect. Our shared effort marks a significant milestone in the way consumers will evaluate cannabis.” - Jeff Gray, CEO and Co-Founder,  SC Labs , California One of the ways in which Leafly currently uses data from its certified labs program is in the creation of Leafly Flowers.  
+These pared down phytochemical visualizations were introduced recently in a site-wide overhaul of their previous indica-sativa-hybrid categorization model. 
+The company uses proprietary generative design software that pulls cannabinoid and terpene data directly from the network of trusted lab partners to automatically create graphic representations of chemovarietal averages. 
+Leafly is currently working on similar applications for cannabis brands that work with the Certified Labs Program, which will increase data reserves and bring trustworthy information about specific products to consumers. 
+Leafly invites labs interested in joining the Certified Labs Program, particularly those in key markets of Massachusetts, Colorado, and Illinois, to apply to join by providing their information  here . 
+PURA – Puration Announces Latin American LOI to Pursue $9-Billion Cannabis Market The legal Latin American cannabis market is anticipated to reach $9 billion by 2028. 
+Subscribe November 12, 2019 Posted by Melissa Schiller Business and finance International Mergers and Acquisitions News DALLAS, Nov. 
+12, 2019 (GLOBE NEWSWIRE) -- via OTC PR WIRE -- PRESS RELEASE -- Puration, Inc. 
+(USOTC: PURA) has announced a second letter of intent (LOI) targeting the Latin American CBD beverage market similar to the LOI in Germany targeting the European CBD beverage market announced last week.  
+The acquisition initiative in Europe was driven by PURA recently signing a distribution agreement in Europe for its EVERx CBD Sports Water with other CBD infused beverages to follow. 
+The initial European distribution agreement is estimated to add $4 million in sales next year. 
+Management indicates that the potential of European distribution beyond the initial $4 million projection warrants the establishment of a local bottling capacity. 
+The European market for CBD is projected to reach nearly US $17 billion by 2023.  
+The bottling expansion in Europe is part of a bigger plan to expand bottling in Canada and Latin America. 
+The LOI announced today is similar to the LOI in Germany. 
+It is designed to establish a foothold for local bottling in the Latin American market just as the German acquisition is designed to establish a foothold in Europe. 
+The legal Latin American cannabis market is anticipated to reach $9 billion by 2028. 
+The German acquisition is scheduled to close this week on Thursday, Nov. 
+14, 2019. 
+Look for more information soon on the Latin American LOI. 
+California Suspends Hundreds of Cannabis Business Licenses Over Track-and-Trace Training Delays All businesses are mandated to earn credentials in the state’s Metrc-run tracking system. 
+Subscribe November 12, 2019 California’s Bureau of Cannabis Control suspended hundreds of business licenses this month, citing missed deadlines in the state’s mandate to get everyone onboard with track-and-trace training. 
+The plan was to have the BCC’s 2,630 licensed businesses credentialed in the state system by the end of October. 
+The suspensions are in place for those businesses still lagging in compliance. 
+All told, the BCC froze the licensed status of 407 cannabis business. 
+The BCC oversees businesses licensed for cannabis retail, delivery, distribution and manufacturing. 
+California’s Cannabis Track-and-Trace system (CCTT) is powered by Metrc. 
+The roll-out of this system began in January. 
+Josh Drayton of the California Cannabis Industry Association told the Associated Press that this sort of bottleneck in the supply chain ends up counterproductive for the legal industry’s goals in California. 
+“We’re kind of incentivizing the illicit market, which is a much more affordable option right now for consumers,” he said. 
+“What we really need to be focused on is access and affordability.”  HUB International Names a Chief Sales Officer for Its Cannabis Insurance and Risk Services Jay Virdi has been named Chief Sales Officer for HUB's cannabis insurance and risk services in the U.S. 
+and Canada. 
+As Chief Sales Officer, Virdi will focus on further developing and perpetuating deep expertise and resources across the U.S. 
+and Canada, to provide medical and recreational cannabis producers, distributors and retailers proper protection and specialized solutions to reduce risks in all aspects of their operations. 
+Virdi has more than 15 years of experience in the insurance industry providing support for sales activities an
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc533348</DOCNO>
+<DOCID>doc533348</DOCID>
+<TEXT>
+LOI - Information
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc533386</DOCNO>
+<DOCID>doc533386</DOCID>
+<TEXT>
+Anterrieux [Cantal] : Naissances/baptêmes Naissances / baptêmes Copyright © Aprogemere 2010-2020 - Tous droits réservés Association loi 1901 no W151000538 ExpoActes version 3.2.2-prod (© 2005-2015, ADSoft)
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc533493</DOCNO>
+<DOCID>doc533493</DOCID>
+<TEXT>
+Le dispositif de la protection sociale complémentaire | CIG PETITE COURONNE Les comptes BIP ne permettent pas d'accéder aux contenus réservés aux collectivités affiliées Nom d'utilisateur * Entrez votre code d'accès à BIP, accès simplifié ou identifiant RDV Emploi Public. 
+Mot de passe * Entrez le mot de passe correspondant à votre nom d'utilisateur.   
+Sont concernés les contrats ou règlements offrant des garanties de protection sociale complémentaire portant sur l’un ou l’autre des deux risques suivants : le risque "santé" qui couvre par le biais de la "complémentaire santé", les risques portant atteinte à l’intégrité physique de la personne et les risques liés à la maternité, en complément des prestations du régime général de la Sécurité sociale, le risque "prévoyance" qui couvre par le biais de la garantie maintien de salaire les risques liés à l’incapacité, l’invalidité et le décès. 
+La labellisation ou le conventionnement La labellisation Les agents dans ce cadre restent libres de souscrire individuellement un contrat ou d’adhérer à une mutuelle, à une assurance ou à une institution de prévoyance de leur choix. 
+Il appartient à ces organismes de demander auprès de l’autorité de contrôle prudentiel, la labellisation d’un contrat(s) ou règlement(s) destinés aux agents territoriaux du ou des contrats en santé ou en prévoyance. 
+Dans cette procédure, la labellisation conditionnera la participation de l’employeur. 
+Seuls les contrats labellisés ouvriront droit à la participation financière de l’employeur. 
+La convention de participation Les employeurs qui optent pour cette procédure concluent une convention de participation d’une durée de 6 ans avec une mutuelle, une assurance ou une institution de prévoyance après mise en concurrence. 
+L’offre de l’opérateur retenu est proposée à l’adhésion individuelle et facultative des agents de la collectivité. 
+Seuls les contrats souscrits auprès de l’opérateur retenu pourront bénéficier de la participation de l’employeur. 
+Pour rappel : La collectivité qui décide de contribuer financièrement à la protection sociale complémentaire de ses agents a le libre choix pour chaque type de risques (santé ou prévoyance) entre la labellisation ou convention de participation. 
+Si elle décide de participer au financement d’un seul risque (sante ou prévoyance) elle peut opter pour : la labellisation Ou le conventionnement. 
+Elle ne peut pas, pour le même risque, mettre en œuvre la labellisation et le conventionnement. 
+Si elle décide de participer au financement des deux risques, elle peut décider : de choisir la labellisation pour chaque risque. 
+de choisir le conventionnement pour chaque risque.   
+La participation financière de l'employeur     Le montant En application de l’article 25 du décret du 8 novembre 2011, le montant de la participation ne peut excéder le montant de la cotisation ou de la prime qui serait dû en l’absence d’aide. 
+Ce montant qu’il appartient à l’assemblée délibérante de fixer, peut atteindre 100 % ou être modulé en prenant en compte le revenu des agents et le cas échéant leur situation familiale (art 23). 
+Cette modulation doit répondre à un but d’intérêt social. 
+La forme de la participation Versée soit au titre des garanties des risques "santé", soit au titre des garanties "prévoyance", soit au titre de garanties aux deux risques : Elle constitue une aide à la personne, Elle prend la forme d’un montant unitaire par agent, Elle vient en déduction de la cotisation ou de la prime due par les agents à l’organisme de protection sociale. 
+Elle est versée : Soit directement aux agents,   Les bénéficiaires du dispositif   La Taxe Spéciale sur les Conventions d'Assurance (TSCA) Textes juridiques de référence Loi n° 83-634 du 13 juillet 1983 portant droits et obligations des fonctionnaires. 
+Loi n°84-53 du 26 janvier 1984 portant dispositions statutaires relatives à la fonction publique territoriale. 
+Loi n°2007-148 du 2 février 2007 de modernisation de la fonction publique. 
+Décret n° 2011-1474 du 8 novembre 2011 relatif à la participation des collectivités territoriales et de leurs établissements publics au financement de la protection sociale complémentaire de leurs agents. 
+Arrêté du 8 novembre 2011 relatif à l’avis d’appel public à la concurrence publié au Journal officiel de l’Union européenne pour le choix des organismes en cas de convention de participation. 
+Arrêté du 8 novembre 2011 relatif à la composition du dossier de demande d’habilitation des prestataires habilités à délivrer les labels pour les contrats et règlement ouvrant droit à participation à la protection sociale complémentaire des agents de la fonction publique territoriale. 
+Arrêté du 8 novembre 2011 relatif aux critères de choix des collectivités territoriales et des établissements publics en relevant dans le cas d’une convention de participation. 
+Arrêté du 8 mars 2011 relatif aux majorations de cotisation prévues par le décret n° 2011-1474 du 8 novembre 2011.     
+Contact Coordinatrice administrative et budgétaire (direction de la santé et de l'action sociale) Tél.
+/Fax. 
+: 01 56 96 81 97 / psc [chez] cig929394.fr     Santé et action sociale. 
+La FAQ sur la protection sociale complémentaire Protection Sociale Complémentaire : les questions réponses sur le renouvellement des contrats de participation à la protection sociale complémentaire. 
+Foire aux questions sur la...
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc533669</DOCNO>
+<DOCID>doc533669</DOCID>
+<TEXT>
+Loi-mawt (Myanmar) map - nona.net Loi-mawt (Shan, Myanmar) Loi-mawt is a town in the Shan region of Myanmar. 
+An overview map of the region around Loi-mawt is displayed below. 
+Hotels for Loi-mawt regional and 3d topo map of Loi-mawt, Myanmar :: Loi-mawt airports :: The nearest airport is LSH - Lashio, located 63.1 km south west of Loi-mawt. 
+Other airports nearby include MYT - Myitkyina (234.7 km north), Nearby towns :: Loi-lem (1.9km south) // Mān Htam-hpa (1.9km north) // Hwe-mawng (2.5km south west) // Ho-hki (4.1km south east) // Loi-yawt (3.9km north west) // Tanghsaw (5.6km south) // Ho-lan (5.1km east) // Mān Namhsaw (5.4km west) // Mān Ta (5.4km west) // Ho-na (5.4km east) // Mān Hin (6.3km south west) // Nawnghin (6.3km north west) // Mongpong (6.5km south east) // Kongkaw (6.5km south east) // Möng Mit (7.1km east) // Pangkiao (7.6km south) // Panglu (7.1km west) // Loi-sawng (7.1km west) // Namlin (7.6km north) // Hpakha (8.2km north east) // Namsa-lap (8.8km south east) // Tünmöng (8.8km south east) // Penghwe (8.8km north east) // Nawnghkam (8.8km north east) // Nawngmong (9.0km south west) // Pongtawm (8.8km north west) // Nawnghkam (10.1km south east) // [all distances 'as the bird flies' and approximate] Places with similar names to Loi-mawt, Myanmar :: // Lmouda (MA) // Lambid (PH) // Lamot (PH) // Lamot (PH) // Lamut (PH) // Lamut (PH) // Limot (PH) // Limot (PH) // Lumbad (PH) // Lumot (PH) Disclaimer :: Information on this page comes without warranty of any kind Where is Loi-mawt? 
+Elevation and coordinates :: Latitude (lat): 23°24'0"N Longitude (lon): 98°10'0"E Elevation (approx.): 811m (map arrows pan, magnifying glasses zoom) Visiting Loi-mawt?
+</TEXT>
+</DOC>
+
+<DOC>
+<DOCNO>doc533939</DOCNO>
+<DOCID>doc533939</DOCID>
+<TEXT>
+Webinar : Loi Economie circulaire : un an après, où en est-on? 
+| Atmos Avocats 31/03/2021 Marie-Pierre Maître , (avocate associée du cabinet Atmos Avocats) et Gaëlle Guyard ( Editions Législatives, code permanent Environnement et nuisances, direction hygiène sécurité et Environnement) dans un webinar : « Loi Economie circulaire : un an après, où un est-on? » Follow Us
+</TEXT>
+</DOC>
+

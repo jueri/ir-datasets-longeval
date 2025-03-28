@@ -1,0 +1,27 @@
+<DOC>
+<DOCNO>doc179584</DOCNO>
+<DOCID>doc179584</DOCID>
+<TEXT>
+Développement du réseau d’entrepôts – Logiciel de simulation AnyLogic Nous et nos partenaires utilisons des cookies pour vous offrir la meilleure expérience en ligne, y compris pour personnaliser le contenu, la publicité et l'analyse Web. 
+Vous pouvez refuser les cookies en modifiant les paramètres de votre navigateur. 
+Pour en savoir plus sur les cookies que nous utilisons, consultez notre Politique en matière de cookies . 
+Problème: Eldorado Company, un immense réseau de revendeurs d’électronique en Russie, avec des magasins dans 350 villes, avait besoin de déterminer le nombre optimal d’entrepôts, ainsi que leur localisation, afin de mieux répondre à la demande des consommateurs et de minimiser les dépenses de livraison et de stockage. 
+L’analyse a montré que le problème pourrait être résolu avec l’introduction du système d’aide décisionnelle anyLogistix . 
+Les données d’entrées fournies par le client décrivaient les emplacements potentiels des entrepôts: le coût du loyer, les investissements de construction de bâtiments nouveaux ou la modernisation d’entrepôts anciens, le niveau moyen et le coût de stockage, les coûts globaux de personnel et de sécurité, etc. 
+Le modèle de simulation inclus dans la simulation comprenait les coordonnées GIS des entrepôts et des magasins de détail, et les distances entre les cités. 
+Solution: Le système permettait au client de simuler en détail plusieurs sortes d’activité: Base quotidienne (model time): les marchandises qui sont vendues dans les magasins, et les pertes dues aux pénuries des articles demandés sont comptabilisées. 
+Base hebdomadaire: le stock est réapprovisionné à un seuil cible défini, les coûts de transport sont comptabilisés, et les paiements à crédit aux fournisseurs planifiés. 
+Base mensuelle: les seuils des entrepôts sont renouvelés en fonction des niveaux de vente des magasins, des itinéraires des entrepôts aux magasins sont créés et les expéditions aux franchisés sont planifiées. 
+Les chiffres de ventes mensuelles sont conformes aux chiffres de vente moyens, tandis que les ventes quotidiennes sont générées de manière aléatoire. 
+Les utilisateurs peuvent mener plusieurs expérimentations avec le modèle. 
+L’expérimentation de variation des paramètres vérifie tous les scénarios possibles de positionnement des entrepôts, en tenant compte des entrepôts «fixés» et de leur nombre maximal. 
+Le produit de cette expérimentation est la meilleure combinaison d’entrepôts qui coûte le moins cher. 
+En fonction de ces informations, l’expérimentation d’optimisation calcule l’espace au sol des entrepôts. 
+Dans une expérimentation simple, un utilisateur choisit manuellement les entrepôts dans la liste, et lance le modèle avec cette combinaison afin de visualiser les statistiques résultantes. 
+Solution retenue: La solution permettait au client de choisir la variante de positionnement optimale d’un entrepôt parmi 63 000 combinaisons. 
+Les coûts de mise en œuvre du logiciel sont rentabilisés pendant les deux premiers mois de travail lorsque l’on utilise le système de réseau de distribution recommandé par le modèle. 
+Le système d’aide à la décision est censé fonctionner pendant une longue durée, car cela permet aux utilisateurs de trouver de nouvelles configuration du système de distribution au cas où la situation du marché change (modification des tarifs de transport, paramètres d’entrepôts, nombre des magasins et montant des ventes, etc.). 
+344 + 34 + 34 +
+</TEXT>
+</DOC>
+
