@@ -13,6 +13,9 @@ from ir_datasets_longeval.longeval_sci import (
 )
 from ir_datasets_longeval.longeval_web import LongEvalWebDataset
 from ir_datasets_longeval.longeval_web import register as register_longeval_web
+from ir_datasets_longeval.longeval_web import (
+    register_spot_check_datasets as register_spot_check_datasets_web,
+)
 
 
 def read_property_from_metadata(base_path, property):
@@ -42,6 +45,8 @@ def load(longeval_ir_dataset: Union[str, Path]):
         register_spot_check_datasets_sci()
     elif longeval_ir_dataset.startswith("longeval-sci"):
         register_longeval_sci()
+    elif longeval_ir_dataset.startswith("longeval-web/spot-check"):
+        register_spot_check_datasets_web()
     elif longeval_ir_dataset.startswith("longeval-web"):
         register_longeval_web()
 
