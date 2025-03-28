@@ -4,12 +4,32 @@
       "url": "https://researchdata.tuwien.ac.at/records/th5h0-g5f51/files/Longeval_2025_Train_Collection_p1.zip?download=1&preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjcwM2Y4MzQ0LTFlMDEtNDYxNy1iNDc4LTI5MmQ5MzYwNTU3NyIsImRhdGEiOnt9LCJyYW5kb20iOiI4NjYxMWFkODQzNDk2ZDk0NzllMDNlOWIyYWM1Zjc4NCJ9.YhnRV6WzWfQiuLQcGyTrA3gyI_5UBe9rtUAV6qKk5U7tqGEmD4NUdyfjGo2-U7tnBIlD7iTwUUDi0nw3GcXPmA",
       "instructions": "TBD",
       "cache_path": "Longeval_2025_Train_Collection_p1.zip"
+    },
+    "web-spot-check-no-prior-data-20250322-training-inputs": {
+      "url": "https://www.tira.io/data-download/training/TODO",
+      "description": "This is a tiny spot check dataset in the LongEval Web format on which you can ensure that your approach works and produces valid outputs. This dataset has no prior data available so that you can ensure that your approach works on unseen queries.",
+      "cache_path": "TODO"
+    },
+    "web-spot-check-with-prior-data-20250322-training-inputs": {
+      "url": "https://www.tira.io/data-download/training/TODO",
+      "instructions": "This is a tiny spot check dataset in the LongEval Web format on which you can ensure that your approach works and produces valid outputs. This dataset has prior/historical data available so that you can ensure that your approach works when queries have been seen before.",
+      "cache_path": "TODO"
+    },
+    "web-spot-check-no-prior-data-20250322-training-truths": {
+      "url": "https://www.tira.io/data-download/training/TODO",
+      "description": "This is a tiny spot check dataset in the LongEval Web format on which you can ensure that your approach works and produces valid outputs. This dataset has no prior data available so that you can ensure that your approach works on unseen queries.",
+      "cache_path": "TODO"
+    },
+    "web-spot-check-with-prior-data-20250322-training-truths": {
+      "url": "https://www.tira.io/data-download/training/TODO",
+      "description": "This is a tiny spot check dataset in the LongEval Web format on which you can ensure that your approach works and produces valid outputs. This dataset has prior/historical data available so that you can ensure that your approach works when queries have been seen before.",
+      "cache_path": "TODO"
     }
   },
   "longeval-sci": {
     "longeval_sci_training_2025": {
       "url": "https://researchdata.tuwien.ac.at/records/r643n-yc044/files/longeval_sci_training_2025_abstract.zip?download=1&preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImYwNWI4NmQ5LTJhNTYtNGJlYy04OWE0LWE4OGU3OTA2ZTkwOSIsImRhdGEiOnt9LCJyYW5kb20iOiJhYWY1Yjg3MzE0NjQ1NDg1NjI3MzA0YzA3ZDQ0ZDAyOCJ9.ggBiT3HU9nhNcPwgM7NjAswFTwNdXSENnM25v6c0DMPwZ2cSeLjmJQH9ImUz6iW-8urif3r-TrygK-z5ZnNFiw",
-      "description": "This is a tiny spot check dataset in the LongEval SCI format on which you can ensure that your approach works and produces valid outputs. This dataset has prior/historical data available so that you can ensure that your approach works when queries have been seen before.",
+      "description": "TBD",
       "cache_path": "longeval_sci_training_2025.zip"
     },
     "sci-spot-check-no-prior-data-20250322-training-inputs": {
@@ -19,7 +39,7 @@
     },
     "sci-spot-check-with-prior-data-20250322-training-inputs": {
       "url": "https://www.tira.io/data-download/training/input-/sci-spot-check-with-prior-data-20250322-training.zip",
-      "instructions": "TBD",
+      "instructions": "This is a tiny spot check dataset in the LongEval SCI format on which you can ensure that your approach works and produces valid outputs. This dataset has prior/historical data available so that you can ensure that your approach works when queries have been seen before.",
       "cache_path": "sci-spot-check-with-prior-data-inputs.zip"
     },
     "sci-spot-check-no-prior-data-20250322-training-truths": {
