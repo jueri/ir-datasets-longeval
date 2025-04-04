@@ -5,7 +5,8 @@ import pickle
 import sqlite3
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, List, NamedTuple, Optional
+from pkgutil import get_data
+from typing import List, NamedTuple, Optional
 
 import ir_datasets
 import lz4.frame
@@ -13,8 +14,9 @@ from ir_datasets import registry
 from ir_datasets.datasets.base import Dataset
 from ir_datasets.formats import TrecDocs, TrecQrels, TsvQueries
 from ir_datasets.indices import PickleLz4FullStore
-from ir_datasets.util import LocalDownload, RelativePath, ZipExtractCache, home_path
+from ir_datasets.util import ZipExtractCache, home_path
 
+from ir_datasets_longeval.formats import MetaDataset
 from ir_datasets_longeval.util import DownloadConfig, YamlDocumentation
 
 logger = ir_datasets.log.easy()
@@ -180,7 +182,7 @@ class LongEvalWebDataset(Dataset):
         yaml_documentation: str = "longeval_web.yaml",
         timestamp: Optional[str] = None,
         prior_datasets: Optional[List[str]] = None,
-        lag: Optional[str] = None
+        lag: Optional[str] = None,
     ):
         documentation = YamlDocumentation(yaml_documentation)
         self.base_path = base_path
@@ -190,6 +192,7 @@ class LongEvalWebDataset(Dataset):
             raise FileNotFoundError(
                 f"I expected that the directory {base_path} exists. But the directory does not exist."
             )
+
         if not timestamp:
             timestamp = self.read_property_from_metadata("timestamp")
 
@@ -233,7 +236,6 @@ class LongEvalWebDataset(Dataset):
     def get_lag(self):
         return self.lag
 
-
     def get_lags(self):
         return None
 
@@ -246,7 +248,13 @@ class LongEvalWebDataset(Dataset):
         ]
 
     def read_property_from_metadata(self, property):
-        return json.load(open(self.base_path / "metadata.json", "r"))[property]
+        try:
+            return json.load(open(self.base_path / "metadata.json", "r"))[property]
+        except FileNotFoundError:
+            metadata = json.loads(get_data("ir_datasets_longeval", "metadata.json"))
+            return metadata[f"longeval-web/{self.timestamp.strftime('%Y-%m')}"][
+                property
+            ]
 
 
 def register():
@@ -270,6 +278,7 @@ def register():
         if f"{NAME}/{timestamp}" in registry:
             # Already registered.
             continue
+
         subsets[timestamp] = LongEvalWebDataset(
             base_path=data_path,
             meta=meta,
@@ -282,3 +291,8 @@ def register():
 
     for s in sorted(subsets):
         registry.register(f"{NAME}/{s}", subsets[s])
+
+    if f"{NAME}/*" in registry:
+        # Already registered.
+        return
+    registry.register(f"{NAME}/*", MetaDataset(list(subsets.values())))
