@@ -193,10 +193,11 @@ class LongEvalWebDataset(Dataset):
                 f"I expected that the directory {base_path} exists. But the directory does not exist."
             )
 
-        if not timestamp:
+        try:
+            self.timestamp = datetime.strptime(timestamp, "%Y-%m")
+        except (ValueError, TypeError):
             timestamp = self.read_property_from_metadata("timestamp")
-
-        self.timestamp = datetime.strptime(timestamp, "%Y-%m")
+            self.timestamp = datetime.strptime(timestamp, "%Y-%m")
 
         if not lag:
             try:
@@ -206,14 +207,16 @@ class LongEvalWebDataset(Dataset):
         self.lag = lag
 
         if prior_datasets is None:
-            prior_datasets = self.read_property_from_metadata("prior-datasets")
+            try:
+                prior_datasets = self.read_property_from_metadata("prior-datasets")
+            except KeyError:
+                prior_datasets = []
 
         self.prior_datasets = prior_datasets
 
-        docs_path = base_path / f"French/LongEval Train Collection/Trec/{timestamp}_fr"
-        docs = LongEvalDocs(ExtractedPath(docs_path), meta)
+        docs = LongEvalDocs(ExtractedPath(base_path), meta)
 
-        queries_path = base_path / "French/queries.txt"
+        queries_path = base_path.parents[2] / "queries.txt"
         if not queries_path.exists() or not queries_path.is_file():
             raise FileNotFoundError(
                 f"I expected that the file {queries_path} exists. But the directory does not exist."
@@ -221,10 +224,8 @@ class LongEvalWebDataset(Dataset):
         queries = TsvQueries(ExtractedPath(queries_path), lang="fr")
 
         qrels = None
-        qrels_path = (
-            base_path
-            / f"French/LongEval Train Collection/qrels/{timestamp}_fr/qrels_processed.txt"
-        )
+        qrels_path_str = str(base_path).replace("Trec", "qrels")
+        qrels_path = Path(qrels_path_str) / "qrels_processed.txt"
         if qrels_path.exists() and qrels_path.is_file():
             qrels = TrecQrels(ExtractedPath(qrels_path), QREL_DEFS)
 
@@ -240,12 +241,11 @@ class LongEvalWebDataset(Dataset):
         return None
 
     def get_past_datasets(self):
-        return [
-            LongEvalWebDataset(
-                base_path=self.base_path / i,
-            )
-            for i in self.prior_datasets
-        ]
+        past_datasets = []
+        for i in self.prior_datasets:
+            base = self.base_path.parent / f"{i}_fr"
+            past_datasets.append(LongEvalWebDataset(base_path=base, timestamp=i))
+        return past_datasets
 
     def read_property_from_metadata(self, property):
         try:
@@ -279,8 +279,12 @@ def register():
             # Already registered.
             continue
 
+        documents_path = (
+            data_path / f"French/LongEval Train Collection/Trec/{timestamp}_fr"
+        )
+
         subsets[timestamp] = LongEvalWebDataset(
-            base_path=data_path,
+            base_path=documents_path,  # due to the structure of the web datasets we use the path to the documents as base path
             meta=meta,
             yaml_documentation="longeval_web.yaml",
             timestamp=timestamp,

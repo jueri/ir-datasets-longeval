@@ -1,0 +1,6 @@
+{
+    "base": "longeval-web",
+    "timestamp": "2022-05",
+    "prior-datasets": ["prior-dataset-01"],
+    "lag": "lag-3"
+}

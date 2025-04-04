@@ -102,6 +102,10 @@ class TestLocalDataset(unittest.TestCase):
                 Path(__file__).parent
                 / "resources"
                 / "example-local-dataset-web-no-prior-datasets"
+                / "French"
+                / "LongEval Train Collection"
+                / "Trec"
+                / "2022-06_fr"
             )
             .absolute()
             .resolve()
@@ -141,6 +145,10 @@ class TestLocalDataset(unittest.TestCase):
                 Path(__file__).parent
                 / "resources"
                 / "example-local-dataset-web-two-prior-datasets"
+                / "French"
+                / "LongEval Train Collection"
+                / "Trec"
+                / "2022-06_fr"
             )
             .absolute()
             .resolve()
@@ -162,11 +170,19 @@ class TestLocalDataset(unittest.TestCase):
         for doc in expected_doc_ids:
             self.assertEqual(doc, docs_store.get(doc).doc_id)
 
-
         self.assertEqual("lag-4", dataset.get_lag())
         self.assertEqual(None, dataset.get_lags())
         past_datasets = dataset.get_past_datasets()
         self.assertEqual(2, len(past_datasets))
-        for past_dataset in past_datasets:
-            self.assertEqual(2022, past_dataset.get_timestamp().year)
-            self.assertEqual(0, len(past_dataset.get_past_datasets()))
+
+        # first past dataset
+        self.assertEqual(2022, past_datasets[0].get_timestamp().year)
+        self.assertEqual(1, len(past_datasets[0].get_past_datasets()))
+        self.assertEqual("lag-3", past_datasets[0].get_lag())
+        
+
+        # second past dataset
+        self.assertEqual(2022, past_datasets[1].get_timestamp().year)
+        self.assertEqual(0, len(past_datasets[1].get_past_datasets()))
+        self.assertEqual("lag-2", past_datasets[1].get_lag())
+        

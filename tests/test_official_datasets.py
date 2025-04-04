@@ -75,6 +75,41 @@ class TestOfficialDatasets(unittest.TestCase):
         
         # Lag
         self.assertEqual("lag-0", dataset.get_lag())
+    
+    
+    def test_web_dataset_two_prior_datasets(self):
+        dataset = load("longeval-web/2022-08")
+
+        expected_queries = {"8": "4 mariages 1 enterrement"}
+
+        # Dataset
+        self.assertIsNotNone(dataset)
+        example_doc = dataset.docs_iter().__next__()
+
+        # Queries
+        actual_queries = {i.query_id: i.default_text() for i in dataset.queries_iter()}
+        self.assertEqual(75427, len(actual_queries))
+        for k, v in expected_queries.items():
+            self.assertEqual(v, actual_queries[k])
+
+        # Qrels
+        self.assertEqual(133001, len(list(dataset.qrels_iter())))
+        
+        # Docs
+        self.assertEqual("121474", example_doc.doc_id)
+
+        # Docstore
+        docs_store = dataset.docs_store()
+        self.assertEqual("44971", docs_store.get("44971").doc_id)
+        
+        # Timestamp
+        self.assertEqual(2022, dataset.get_timestamp().year)
+
+        # Prior datasets
+        self.assertEqual(2, len(dataset.get_past_datasets()))
+        
+        # Lag
+        self.assertEqual("lag-2", dataset.get_lag())
 
 
     def test_all_sci_datasets(self):
