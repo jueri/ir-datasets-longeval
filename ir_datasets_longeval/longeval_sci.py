@@ -3,14 +3,16 @@ import json
 import os
 from datetime import datetime
 from pathlib import Path
+from pkgutil import get_data
+from shutil import copyfile
 from typing import Dict, List, NamedTuple, Optional
 
 from ir_datasets import registry
 from ir_datasets.datasets.base import Dataset
 from ir_datasets.formats import JsonlDocs, TrecQrels, TsvQueries
 from ir_datasets.util import ZipExtractCache, home_path
-from shutil import copyfile
 
+from ir_datasets_longeval.formats import MetaDataset
 from ir_datasets_longeval.util import DownloadConfig, YamlDocumentation
 
 NAME = "longeval-sci"
@@ -91,9 +93,9 @@ class LongEvalSciDataset(Dataset):
 
         self.timestamp = datetime.strptime(timestamp, "%Y-%m")
 
-
         if not lag:
             try:
+                print("read lag from metadata")
                 lag = self.read_property_from_metadata("lag")
             except KeyError:
                 lag = None
@@ -147,7 +149,7 @@ class LongEvalSciDataset(Dataset):
 
     def get_lag(self):
         return self.lag
-    
+
     def get_lags(self):
         return None
 
@@ -155,16 +157,14 @@ class LongEvalSciDataset(Dataset):
         return [LongEvalSciDataset(self.base_path / i) for i in self.prior_datasets]
 
     def read_property_from_metadata(self, property):
-        return json.load(open(self.base_path / "metadata.json", "r"))[property]
+        try:
+            return json.load(open(self.base_path / "metadata.json", "r"))[property]
+        except FileNotFoundError:
+            metadata = json.loads(get_data("ir_datasets_longeval", "metadata.json"))
+            return metadata[f"longeval-sci/{self.timestamp.strftime('%Y-%m')}/train"][
+                property
+            ]
 
-
-class MetaDataset(Dataset):
-    def __init__(self, datasets):
-        super().__init__()
-        self._datasets = datasets
-
-    def get_lags(self):
-        return self._datasets
 
 def register_spot_check_datasets():
     if f"{NAME}/spot-check/no-prior-data" in registry:
@@ -172,27 +172,39 @@ def register_spot_check_datasets():
 
     base_path = home_path() / NAME / "spot-check"
     dlc = DownloadConfig.context(NAME, base_path)
+
     def extract_from_tira(name):
-            return ZipExtractCache(
-            dlc[name], base_path / name
-        ).path() / name.replace('-inputs', '').replace('-truths', '')
+        return ZipExtractCache(dlc[name], base_path / name).path() / name.replace(
+            "-inputs", ""
+        ).replace("-truths", "")
 
-    no_prior_data_inputs = extract_from_tira("sci-spot-check-no-prior-data-20250322-training-inputs")
-    with_prior_data_inputs = extract_from_tira("sci-spot-check-with-prior-data-20250322-training-inputs")
-    no_prior_data_truths = extract_from_tira("sci-spot-check-no-prior-data-20250322-training-truths")
-    with_prior_data_truths = extract_from_tira("sci-spot-check-with-prior-data-20250322-training-truths")
+    no_prior_data_inputs = extract_from_tira(
+        "sci-spot-check-no-prior-data-20250322-training-inputs"
+    )
+    with_prior_data_inputs = extract_from_tira(
+        "sci-spot-check-with-prior-data-20250322-training-inputs"
+    )
+    no_prior_data_truths = extract_from_tira(
+        "sci-spot-check-no-prior-data-20250322-training-truths"
+    )
+    with_prior_data_truths = extract_from_tira(
+        "sci-spot-check-with-prior-data-20250322-training-truths"
+    )
 
-    if not (no_prior_data_inputs / 'qrels.txt').exists():
-        copyfile(no_prior_data_truths / 'qrels.txt', no_prior_data_inputs / 'qrels.txt')
+    if not (no_prior_data_inputs / "qrels.txt").exists():
+        copyfile(no_prior_data_truths / "qrels.txt", no_prior_data_inputs / "qrels.txt")
 
-    if not (with_prior_data_inputs / 'qrels.txt').exists():
-        copyfile(with_prior_data_truths / 'qrels.txt', with_prior_data_inputs / 'qrels.txt')
+    if not (with_prior_data_inputs / "qrels.txt").exists():
+        copyfile(
+            with_prior_data_truths / "qrels.txt", with_prior_data_inputs / "qrels.txt"
+        )
 
     no_prior = LongEvalSciDataset(no_prior_data_inputs, lag="lag-3")
     prior_data = LongEvalSciDataset(with_prior_data_inputs, lag="lag-4")
     registry.register(f"{NAME}/spot-check/no-prior-data", no_prior)
     registry.register(f"{NAME}/spot-check/with-prior-data", prior_data)
     registry.register(f"{NAME}/spot-check/*", MetaDataset([no_prior, prior_data]))
+
 
 def register():
     if f"{NAME}/2024-11/train" in registry:
@@ -219,3 +231,8 @@ def register():
 
     for s in sorted(subsets):
         registry.register(f"{NAME}/{s}", subsets[s])
+
+    if f"{NAME}/*" in registry:
+        # Already registered.
+        return
+    registry.register(f"{NAME}/*", MetaDataset(list(subsets.values())))

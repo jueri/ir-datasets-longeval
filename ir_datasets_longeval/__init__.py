@@ -17,7 +17,6 @@ from ir_datasets_longeval.longeval_web import register as register_longeval_web
 
 def read_property_from_metadata(base_path, property):
     base = json.load(open(Path(base_path) / "metadata.json", "r")).get(property, "")
-    print(base)
     return base
 
 
