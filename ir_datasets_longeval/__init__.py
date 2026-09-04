@@ -22,6 +22,7 @@ from ir_datasets_longeval.datasets.longeval_sci_2026 import (
 from ir_datasets_longeval.datasets.longeval_web import LongEvalWebDataset
 from ir_datasets_longeval.datasets.longeval_web import register as register_longeval_web
 
+from ir_datasets_longeval.datasets.dynamic_dataset import register as register_dynamic_dataset
 
 def read_property_from_metadata(base_path, property):
     property_files = [
@@ -64,6 +65,8 @@ def load(longeval_ir_dataset: Union[str]):
         register_longeval_web()
     elif longeval_ir_dataset.startswith("longeval-2023"):
         register_longeval_2023()
+    elif longeval_ir_dataset.startswith("dynamic-dataset"):
+        register_dynamic_dataset()
 
     exists_locally = (
         longeval_ir_dataset
@@ -85,6 +88,8 @@ def load(longeval_ir_dataset: Union[str]):
         if base.startswith("longeval-web"):
             return LongEvalWebDataset(Path(longeval_ir_dataset))
         elif base.startswith("longeval-2023"):
+            return LongEvalDataset(Path(longeval_ir_dataset))
+        elif base.startswith("dynamic-dataset"):
             return LongEvalDataset(Path(longeval_ir_dataset))
         return LongEvalSciDataset(Path(longeval_ir_dataset))
 
@@ -115,11 +120,15 @@ def register(dataset=None) -> None:
         register_longeval_2023()
     elif dataset == "longeval-sci-2026":
         register_longeval_sci_2026()
+    elif dataset == "dynamic-dataset":
+        register_dynamic_dataset()
     else:
         register_longeval_web()
         register_longeval_sci()
         register_longeval_2023()
         register_longeval_sci_2026()
+        register_dynamic_dataset()
+    
 
 
 def main_cli() -> None:

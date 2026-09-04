@@ -139,5 +139,11 @@
       "cache_path": "task1_longeval_adhoc-qrels-snapshot-09-11-raw.txt",
       "expected_md5": "daf91553bbd924a308cb87c7f1dcce65"
     }
+  },
+  "dynamic-dataset": {
+    "dynamic-dataset": {
+      "instructions": "TBD",
+      "cache_path": "dynamic-dataset.zip"
+    }
   }
 }
