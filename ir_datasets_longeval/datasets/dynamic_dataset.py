@@ -9,10 +9,10 @@ from typing import Iterator, NamedTuple, Optional
 from ir_datasets import registry
 from ir_datasets.datasets.base import Dataset
 from ir_datasets.formats import BaseDocs, BaseQrels, BaseQueries, TrecQueries
+from ir_datasets.util import DownloadConfig as IrdDownloadConfig
 from ir_datasets.util import ZipExtractCache, home_path
 
 from ir_datasets_longeval.formats import MetaDataset
-from ir_datasets.util import DownloadConfig as IrdDownloadConfig
 from ir_datasets_longeval.util import DownloadConfig
 
 QREL_DEFS = {2: "highly relevant", 1: "relevant", 0: "not relevant"}
@@ -353,6 +353,28 @@ def _topic_from_record(record: dict, topic_type: str = "dynamic") -> DynamicTopi
         record.get("llm_model") or record.get("llm"), record.get("prompt"), record.get("debate_id") or record.get("debate"), 
     )
     
+def get_static_topics(base_path: Path) -> dict[str, DynamicTopic]:
+    static_topics = {}
+    wapo_dlc = IrdDownloadConfig.context("wapo", base_path)
+    queries = TrecQueries(wapo_dlc['trec-core-2018/queries'])
+    
+    for wapo_topic in queries.queries_iter():
+        topic_id = wapo_topic.query_id[:3]
+        if topic_id in STATIC_TOPIC_IDS:
+            static_topics[topic_id] = _topic_from_record({            
+            "title": wapo_topic.title,
+            "description": wapo_topic.description,
+            "narrative": wapo_topic.narrative,
+            "topic_id": wapo_topic.query_id,
+            "debate_id": "wapo/v2/trec-core-2018",
+            "debate_date": "2026-05-19",
+            "generated_at": None,
+            "llm_profile": "TREC",
+            "llm_model": "human",
+            "valid_from": "2026-09-01",
+            "valid_to": "2026-09-15",
+            })
+    return static_topics
 class DynamicDataset(Dataset):
     """A conventional ir_datasets dataset view over one package day."""
 
@@ -379,24 +401,8 @@ class DynamicDataset(Dataset):
                 self._topics[topic.topic_id] = topic
         
         # Add static topics from TREC Core 2018
-        wapo_dlc = IrdDownloadConfig.context("wapo", base_path)
-        queries = TrecQueries(wapo_dlc['trec-core-2018/queries'])
-        
-        for wapo_topic in queries.queries_iter():
-            if wapo_topic.query_id in STATIC_TOPIC_IDS:
-                self._topics[wapo_topic.query_id] = _topic_from_record({            
-                "title": wapo_topic.title,
-                "description": wapo_topic.description,
-                "narrative": wapo_topic.narrative,
-                "topic_id": wapo_topic.query_id,
-                "debate_id": "wapo/v2/trec-core-2018",
-                "debate_date": "2026-05-19",
-                "generated_at": None,
-                "llm_profile": "TREC",
-                "llm_model": "human",
-                })
-                
-                
+        static_topics = get_static_topics(self.base_path)
+        self._topics.update(static_topics)
                 
         docs = DynamicDocs(document_path)
         queries = DynamicQueries(query_path, self._topics)
@@ -457,6 +463,10 @@ class DynamicSnapshotDataset(Dataset):
             topic.topic_id: topic
             for topic in (_topic_from_record(row) for row in _jsonl_gz(self.base_path / "topics.jsonl.gz"))
         }
+        # Add static topics from TREC Core 2018
+        static_topics = get_static_topics(self.base_path)
+        all_topics.update(static_topics)
+                
         query_dates = {
             path.name.removesuffix(".jsonl.gz")
             for path in (self.base_path / "queries").glob("*.jsonl.gz")
