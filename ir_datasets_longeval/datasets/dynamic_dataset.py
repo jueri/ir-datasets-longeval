@@ -8,16 +8,33 @@ from typing import Iterator, NamedTuple, Optional
 
 from ir_datasets import registry
 from ir_datasets.datasets.base import Dataset
-from ir_datasets.formats import BaseDocs, BaseQrels, BaseQueries
+from ir_datasets.formats import BaseDocs, BaseQrels, BaseQueries, TrecQueries
 from ir_datasets.util import ZipExtractCache, home_path
 
 from ir_datasets_longeval.formats import MetaDataset
+from ir_datasets.util import DownloadConfig as IrdDownloadConfig
 from ir_datasets_longeval.util import DownloadConfig
 
 QREL_DEFS = {2: "highly relevant", 1: "relevant", 0: "not relevant"}
 NAME = "dynamic-dataset"
 SNAPSHOT_DAYS = range(21)
-
+STATIC_TOPIC_IDS = {
+    "321",
+    "336",
+    "341",
+    "397",
+    "408",
+    "422",
+    "427",
+    "433",
+    "801",
+    "804",
+    "806",
+    "808",
+    "809",
+    "814",
+    "818",
+    "823"}
 class DynamicTopic(NamedTuple):
     """A topic definition with its collection validity interval."""
 
@@ -25,6 +42,7 @@ class DynamicTopic(NamedTuple):
     title: str
     description: str
     narrative: str
+    topic_type: Optional[str]
     valid_from: str
     valid_to: Optional[str]
     llm: Optional[str]
@@ -328,11 +346,11 @@ def _document_from_record(
     )
 
 
-def _topic_from_record(record: dict) -> DynamicTopic:
+def _topic_from_record(record: dict, topic_type: str = "dynamic") -> DynamicTopic:
     return DynamicTopic(
         record["topic_id"], record.get("title", ""), record.get("description", ""),
-        record.get("narrative", ""), record["valid_from"], record.get("valid_to"),
-        record.get("llm_model") or record.get("llm"), record.get("prompt"), record.get("debate_id") or record.get("debate"),
+        record.get("narrative", ""), topic_type, record["valid_from"], record.get("valid_to"),
+        record.get("llm_model") or record.get("llm"), record.get("prompt"), record.get("debate_id") or record.get("debate"), 
     )
     
 class DynamicDataset(Dataset):
@@ -349,11 +367,37 @@ class DynamicDataset(Dataset):
         if not query_path.is_file() or not document_path.is_file():
             raise ValueError(f"No complete dataset view for {at}")
 
-        self._topics = {
-            topic.topic_id: topic
-            for topic in (_topic_from_record(row) for row in _jsonl_gz(self.base_path / "topics.jsonl.gz"))
-            if topic.valid_from <= at and (topic.valid_to is None or at < topic.valid_to)
-        }
+        self._topics = {}
+        
+        # Load dynamic topics
+        raw_records = _jsonl_gz(self.base_path / "topics.jsonl.gz")
+        for row in raw_records:
+            topic = _topic_from_record(row)
+            is_active = topic.valid_from <= at and (topic.valid_to is None or at < topic.valid_to)
+            
+            if is_active:
+                self._topics[topic.topic_id] = topic
+        
+        # Add static topics from TREC Core 2018
+        wapo_dlc = IrdDownloadConfig.context("wapo", base_path)
+        queries = TrecQueries(wapo_dlc['trec-core-2018/queries'])
+        
+        for wapo_topic in queries.queries_iter():
+            if wapo_topic.query_id in STATIC_TOPIC_IDS:
+                self._topics[wapo_topic.query_id] = _topic_from_record({            
+                "title": wapo_topic.title,
+                "description": wapo_topic.description,
+                "narrative": wapo_topic.narrative,
+                "topic_id": wapo_topic.query_id,
+                "debate_id": "wapo/v2/trec-core-2018",
+                "debate_date": "2026-05-19",
+                "generated_at": None,
+                "llm_profile": "TREC",
+                "llm_model": "human",
+                })
+                
+                
+                
         docs = DynamicDocs(document_path)
         queries = DynamicQueries(query_path, self._topics)
         qrels = None
