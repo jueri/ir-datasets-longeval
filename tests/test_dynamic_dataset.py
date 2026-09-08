@@ -8,9 +8,11 @@ from ir_datasets_longeval import load
 from ir_datasets_longeval.datasets.dynamic_dataset import (
     DynamicDataset,
     DynamicDocument,
+    DynamicDocs,
     DynamicQrel,
     DynamicQuery,
     DynamicSerpResult,
+    DynamicSnapshotDocs,
     DynamicTopic,
     register,
 )
@@ -44,6 +46,35 @@ def test_temporal_document_uses_docno_for_ir_datasets_joins():
     qrel = DynamicQrel("q1", document.doc_id, 2, 2, 1, 2)
     assert qrel.doc_id == document.doc_id
     assert qrel.relevance_rater_2 == 1
+
+
+def test_dynamic_docstores_support_daily_and_snapshot_lookup(tmp_path: Path):
+    documents_path = tmp_path / "documents"
+    first_path = documents_path / "2026-09-01.jsonl.gz"
+    second_path = documents_path / "2026-09-02.jsonl.gz"
+    _write_jsonl_gz(first_path, [{
+        "doc_id": "abc", "docno": "abc.2026-09-01", "url": "https://example.test/abc",
+        "title": "First", "text": "First body", "content_version_id": "abc.2026-09-01",
+        "valid_from": "2026-09-01", "valid_to": "2026-09-02",
+    }])
+    _write_jsonl_gz(second_path, [{
+        "doc_id": "def", "docno": "def.2026-09-02", "url": "https://example.test/def",
+        "title": "Second", "text": "Second body", "content_version_id": "def.2026-09-02",
+        "valid_from": "2026-09-02", "valid_to": "2026-09-03",
+    }])
+
+    daily_docs = DynamicDocs(first_path)
+    assert daily_docs.docs_store().get("abc.2026-09-01").text == "First body"
+    assert [document.doc_id for document in daily_docs.docs_iter()] == ["abc.2026-09-01"]
+
+    snapshot_docs = DynamicSnapshotDocs(
+        [first_path, second_path],
+        {"def.2026-09-02"},
+        snapshot_day=1,
+        documents_path=documents_path,
+    )
+    assert snapshot_docs.docs_store().get("def.2026-09-02").text == "Second body"
+    assert [document.doc_id for document in snapshot_docs.docs_iter()] == ["def.2026-09-02"]
 
 
 def test_dynamic_query_keeps_topic_and_serp_outside_default_text():

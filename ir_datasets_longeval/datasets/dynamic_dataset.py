@@ -6,9 +6,11 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Iterator, NamedTuple, Optional
 
+import ir_datasets
 from ir_datasets import registry
 from ir_datasets.datasets.base import Dataset
 from ir_datasets.formats import BaseDocs, BaseQrels, BaseQueries, TrecQueries
+from ir_datasets.indices import PickleLz4FullStore
 from ir_datasets.util import DownloadConfig as IrdDownloadConfig
 from ir_datasets.util import ZipExtractCache, home_path
 
@@ -248,7 +250,11 @@ class DynamicDocs(BaseDocs):
         self.document_ids = document_ids
         self.history = history or DynamicDocumentHistory(path.parent)
 
+    @ir_datasets.util.use_docstore
     def docs_iter(self) -> Iterator[DynamicDocument]:
+        yield from self._docs_iter_raw()
+
+    def _docs_iter_raw(self) -> Iterator[DynamicDocument]:
         for record in _jsonl_gz(self.path):
             if self.document_ids is not None and record["docno"] not in self.document_ids:
                 continue
@@ -259,6 +265,16 @@ class DynamicDocs(BaseDocs):
 
     def docs_cls(self):
         return DynamicDocument
+
+    def docs_store(self):
+        snapshot_date = self.path.name.removesuffix(".jsonl.gz")
+        return PickleLz4FullStore(
+            path=self.path.parent / "docstores" / f"day-{snapshot_date}.pklz4",
+            init_iter_fn=self._docs_iter_raw,
+            data_cls=self.docs_cls(),
+            lookup_field="doc_id",
+            index_fields=["doc_id"],
+        )
 
 
 class DynamicSnapshotQueries(BaseQueries):
@@ -294,15 +310,27 @@ class DynamicSnapshotQueries(BaseQueries):
 class DynamicSnapshotDocs(BaseDocs):
     """Documents referenced by a topic-relative snapshot's dated SERPs."""
 
-    def __init__(self, paths: list[Path], document_ids: set[str]):
+    def __init__(
+        self,
+        paths: list[Path],
+        document_ids: set[str],
+        snapshot_day: int,
+        documents_path: Optional[Path] = None,
+    ):
         self.paths = paths
         self.document_ids = document_ids
+        self.snapshot_day = snapshot_day
+        self.documents_path = documents_path or (paths[0].parent if paths else None)
         self.history = DynamicDocumentHistory(paths[0].parent) if paths else None
 
+    @ir_datasets.util.use_docstore
     def docs_iter(self) -> Iterator[DynamicDocument]:
+        yield from self._docs_iter_raw()
+
+    def _docs_iter_raw(self) -> Iterator[DynamicDocument]:
         seen: set[str] = set()
         for path in self.paths:
-            for document in DynamicDocs(path, self.document_ids, self.history).docs_iter():
+            for document in DynamicDocs(path, self.document_ids, self.history)._docs_iter_raw():
                 if document.doc_id not in seen:
                     seen.add(document.doc_id)
                     yield document
@@ -312,6 +340,17 @@ class DynamicSnapshotDocs(BaseDocs):
 
     def docs_cls(self):
         return DynamicDocument
+
+    def docs_store(self):
+        if self.documents_path is None:
+            raise ValueError("documents_path is required for an empty snapshot")
+        return PickleLz4FullStore(
+            path=self.documents_path / "docstores" / f"snapshot-{self.snapshot_day}.pklz4",
+            init_iter_fn=self._docs_iter_raw,
+            data_cls=self.docs_cls(),
+            lookup_field="doc_id",
+            index_fields=["doc_id"],
+        )
 
 
 def _jsonl_gz(path: Path) -> Iterator[dict]:
@@ -498,6 +537,8 @@ class DynamicSnapshotDataset(Dataset):
         docs = DynamicSnapshotDocs(
             [self.base_path / "documents" / f"{day}.jsonl.gz" for day in sorted(set(self._topic_dates.values()))],
             document_ids,
+            snapshot_day,
+            self.base_path / "documents",
         )
         qrels = None
         if self.qrel_set:
