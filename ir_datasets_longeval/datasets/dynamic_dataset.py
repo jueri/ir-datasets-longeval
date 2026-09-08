@@ -385,7 +385,7 @@ def _document_from_record(
     )
 
 
-def _topic_from_record(record: dict, topic_type: str = "dynamic") -> DynamicTopic:
+def _topic_from_record(record: dict, topic_type: str) -> DynamicTopic:
     return DynamicTopic(
         record["topic_id"], record.get("title", ""), record.get("description", ""),
         record.get("narrative", ""), topic_type, record["valid_from"], record.get("valid_to"),
@@ -412,7 +412,7 @@ def get_static_topics(base_path: Path) -> dict[str, DynamicTopic]:
             "llm_model": "human",
             "valid_from": "2026-09-01",
             "valid_to": "2026-09-15",
-            })
+            }, topic_type="static")
     return static_topics
 class DynamicDataset(Dataset):
     """A conventional ir_datasets dataset view over one package day."""
@@ -433,7 +433,7 @@ class DynamicDataset(Dataset):
         # Load dynamic topics
         raw_records = _jsonl_gz(self.base_path / "topics.jsonl.gz")
         for row in raw_records:
-            topic = _topic_from_record(row)
+            topic = _topic_from_record(row, topic_type="dynamic")
             is_active = topic.valid_from <= at and (topic.valid_to is None or at < topic.valid_to)
             
             if is_active:
@@ -500,7 +500,7 @@ class DynamicSnapshotDataset(Dataset):
 
         all_topics = {
             topic.topic_id: topic
-            for topic in (_topic_from_record(row) for row in _jsonl_gz(self.base_path / "topics.jsonl.gz"))
+            for topic in (_topic_from_record(row, topic_type="dynamic") for row in _jsonl_gz(self.base_path / "topics.jsonl.gz"))
         }
         # Add static topics from TREC Core 2018
         static_topics = get_static_topics(self.base_path)
