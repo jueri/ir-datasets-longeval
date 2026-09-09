@@ -404,7 +404,7 @@ def get_static_topics(base_path: Path) -> dict[str, DynamicTopic]:
             "title": wapo_topic.title,
             "description": wapo_topic.description,
             "narrative": wapo_topic.narrative,
-            "topic_id": wapo_topic.query_id,
+            "topic_id": topic_id,
             "debate_id": "wapo/v2/trec-core-2018",
             "debate_date": "2026-05-19",
             "generated_at": None,
