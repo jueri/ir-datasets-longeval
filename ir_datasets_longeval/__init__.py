@@ -6,11 +6,18 @@ from typing import Union
 from ir_datasets import main_cli as irds_main_cli
 from ir_datasets import registry as irds_registry
 
-from ir_datasets_longeval.datasets.longeval_2023 import LongEvalDataset
+from ir_datasets_longeval.datasets.dynamic_dataset import (
+    register as register_dynamic_dataset,
+)
+from ir_datasets_longeval.datasets.longeval_2023 import (
+    LongEvalDataset,
+)
 from ir_datasets_longeval.datasets.longeval_2023 import (
     register as register_longeval_2023,
 )
-from ir_datasets_longeval.datasets.longeval_sci import LongEvalSciDataset
+from ir_datasets_longeval.datasets.longeval_sci import (
+    LongEvalSciDataset,
+)
 from ir_datasets_longeval.datasets.longeval_sci import register as register_longeval_sci
 from ir_datasets_longeval.datasets.longeval_sci import (
     register_spot_check_datasets as register_spot_check_datasets_sci,
@@ -18,11 +25,9 @@ from ir_datasets_longeval.datasets.longeval_sci import (
 from ir_datasets_longeval.datasets.longeval_sci_2026 import (
     register as register_longeval_sci_2026,
 )
-
 from ir_datasets_longeval.datasets.longeval_web import LongEvalWebDataset
 from ir_datasets_longeval.datasets.longeval_web import register as register_longeval_web
 
-from ir_datasets_longeval.datasets.dynamic_dataset import register as register_dynamic_dataset
 
 def read_property_from_metadata(base_path, property):
     property_files = [
@@ -36,7 +41,7 @@ def read_property_from_metadata(base_path, property):
     raise ValueError(f"Could not load a metadata.json from {base_path}")
 
 
-def load(longeval_ir_dataset: Union[str]):
+def load(longeval_ir_dataset: Union[str, Path]):
     """Load an LongEval ir_dataset.
     Can point to an official ID of an LongEval dataset or a local directory of the same structure.
 
