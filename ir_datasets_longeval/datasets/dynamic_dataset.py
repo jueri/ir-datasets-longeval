@@ -405,13 +405,14 @@ def register():
     md_static_re = register_dataset_by_date(base_path, "static", "RE")
     
     # snapshot
-    queries_emerged = get_emerging_dates(md_dynamic_in)
     dataset_path = base_path / "dynamic"
+    queries_emerged = get_emerging_dates(md_dynamic_in)
     documents_all = DynamicDatasetAllDocs(dataset_path)
     register_dataset_by_snapshot(dataset_path, "dynamic", "RE", queries_emerged, documents_all)
     register_dataset_by_snapshot(dataset_path, "dynamic", "IN", queries_emerged, documents_all)
     
     dataset_path = base_path / "static"
+    queries_emerged = get_emerging_dates(md_static_in)
     documents_all = DynamicDatasetAllDocs(dataset_path)
     register_dataset_by_snapshot(dataset_path, "static", "RE", queries_emerged, documents_all)
     register_dataset_by_snapshot(dataset_path, "static", "IN", queries_emerged, documents_all)
